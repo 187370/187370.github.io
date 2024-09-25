@@ -6,7 +6,7 @@
   <link href="https://187370.github.io/atom.xml" rel="self"/>
   
   <link href="https://187370.github.io/"/>
-  <updated>2024-09-24T15:15:34.023Z</updated>
+  <updated>2024-09-23T14:00:07.107Z</updated>
   <id>https://187370.github.io/</id>
   
   <author>
@@ -15,54 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>123</title>
-    <link href="https://187370.github.io/2024/09/24/123/"/>
-    <id>https://187370.github.io/2024/09/24/123/</id>
-    <published>2024-09-24T15:15:06.000Z</published>
-    <updated>2024-09-24T15:15:34.023Z</updated>
-    
-    <content type="html"><![CDATA[<p>&#x3D;&#x3D;数据结构与算法&#x3D;&#x3D;</p><figure class="highlight latex"><table><tr><td class="code"><pre><span class="line">a<span class="built_in">_</span>&#123;1&#125;</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&amp;#x3D;&amp;#x3D;数据结构与算法&amp;#x3D;&amp;#x3D;&lt;/p&gt;
-&lt;figure class=&quot;highlight latex&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;a&lt;span class=&quot;bui</summary>
-      
-    
-    
-    
-    <category term="学习笔记" scheme="https://187370.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="笔记" scheme="https://187370.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="数算" scheme="https://187370.github.io/tags/%E6%95%B0%E7%AE%97/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>test</title>
-    <link href="https://187370.github.io/2024/09/24/test/"/>
-    <id>https://187370.github.io/2024/09/24/test/</id>
-    <published>2024-09-24T11:50:00.000Z</published>
-    <updated>2024-09-24T12:00:01.382Z</updated>
-    
-    <content type="html"><![CDATA[<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://github.com/owen0o0/getFavicon">    <div class="tag-link-tips">引用站外地址</div>    <div class="tag-link-bottom">        <div class="tag-link-left" style="">          <i class="anzhiyufont anzhiyu-icon-link" style=""></i>        </div>        <div class="tag-link-right">            <div class="tag-link-title">获取网站的Favicon图标并显示在你的网页上</div>            <div class="tag-link-sitename">owen0o0</div>        </div>        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>    </div>    </a></div><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<p class='p red'>红色</p>、<p class='p yellow'>黄色</p>、<p class='p green'>绿色</p>、<p class='p cyan'>青色</p>、<p class='p blue'>蓝色</p>、<p class='p gray'>灰色</p>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<p class='p center logo large'>Volantis</p><p class='p center small'>A Wonderful Theme for Hexo</p></li><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span><ol><li>带 <u>下划线</u> 的文本</li></ol></li></ul><ol start="2"><li>带 <emp>着重号</emp> 的文本</li><li>带 <wavy>波浪线</wavy> 的文本</li><li>带 <del>删除线</del> 的文本</li><li>键盘样式的文本 <kbd>command</kbd> + <kbd>D</kbd></li><li>密码样式的文本：<psw>这里没有验证码</psw><div class="tabs" id="test1"><ul class="nav-tabs"><button type="button" class="tab  active" data-href="test1-1">test1 1</button><button type="button" class="tab " data-href="test1-2">test1 2</button><button type="button" class="tab " data-href="test1-3">test1 3</button></ul><div class="tab-contents"><div class="tab-item-content active" id="test1-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-item-content" id="test1-2"><p><strong>This is Tab 2.</strong></p></div><div class="tab-item-content" id="test1-3"><p><strong>This is Tab 3.</strong></p></div></div><div class="tab-to-top"><button type="button" aria-label="scroll to top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div class="btns circle grid5">            <a class="button no-text-decoration" href='https://xaoxuu.com' title='xaoxuu'><img src='https://bu.dusays.com/2023/06/01/64787e6a5816d.png'>xaoxuu</a><a class="button no-text-decoration" href='https://xaoxuu.com' title='xaoxuu'><img src='https://bu.dusays.com/2023/06/01/64787e6a5816d.png'>xaoxuu</a><a class="button no-text-decoration" href='https://xaoxuu.com' title='xaoxuu'><img src='https://bu.dusays.com/2023/06/01/64787e6a5816d.png'>xaoxuu</a><a class="button no-text-decoration" href='https://xaoxuu.com' title='xaoxuu'><img src='https://bu.dusays.com/2023/06/01/64787e6a5816d.png'>xaoxuu</a><a class="button no-text-decoration" href='https://xaoxuu.com' title='xaoxuu'><img src='https://bu.dusays.com/2023/06/01/64787e6a5816d.png'>xaoxuu</a>          </div><div class="btns rounded grid5">            <a class="button no-text-decoration" href='/' title='下载源码'><i class='anzhiyufont anzhiyu-icon-bolt'></i>下载源码</a><a class="button no-text-decoration" href='/' title='查看文档'><i class='anzhiyufont anzhiyu-icon-book'></i>查看文档</a>          </div><span></li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div calss=&#39;anzhiyu-tag-link&#39;&gt;&lt;a class=&quot;tag-Link&quot; target=&quot;_blank&quot; href=&quot;https://github.com/owen0o0/getFavicon&quot;&gt;
-    &lt;div class=&quot;tag-link-tip</summary>
-      
-    
-    
-    
-    
-  </entry>
   
   <entry>
     <title>ics第三周:程序的机器级表示</title>
