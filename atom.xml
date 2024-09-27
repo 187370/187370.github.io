@@ -6,7 +6,7 @@
   <link href="https://187370.github.io/atom.xml" rel="self"/>
   
   <link href="https://187370.github.io/"/>
-  <updated>2024-09-25T02:15:37.293Z</updated>
+  <updated>2024-09-27T06:03:00.765Z</updated>
   <id>https://187370.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ics第三周:程序的机器级表示</title>
+    <link href="https://187370.github.io/2024/09/26/ics%E7%AC%AC%E4%B8%89%E5%91%A8%EF%BC%9A%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9C%BA%E5%99%A8%E7%BA%A7%E8%A1%A8%E7%A4%BA/"/>
+    <id>https://187370.github.io/2024/09/26/ics%E7%AC%AC%E4%B8%89%E5%91%A8%EF%BC%9A%E7%A8%8B%E5%BA%8F%E7%9A%84%E6%9C%BA%E5%99%A8%E7%BA%A7%E8%A1%A8%E7%A4%BA/</id>
+    <published>2024-09-26T11:31:43.000Z</published>
+    <updated>2024-09-27T06:03:00.765Z</updated>
+    
+    
+    <summary type="html">3.7过程的笔记！快放假吧，孩子快死了</summary>
+    
+    
+    
+    <category term="ics" scheme="https://187370.github.io/categories/ics/"/>
+    
+    <category term="学习笔记" scheme="https://187370.github.io/categories/ics/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://187370.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="CSAPP" scheme="https://187370.github.io/tags/CSAPP/"/>
+    
+  </entry>
   
   <entry>
     <title>test</title>
@@ -134,9 +157,9 @@
     <category term="CSAPP" scheme="https://187370.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/CSAPP/"/>
     
     
-    <category term="笔记" scheme="https://187370.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="ics" scheme="https://187370.github.io/tags/ics/"/>
+    
+    <category term="笔记" scheme="https://187370.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -161,9 +184,9 @@
     <category term="CSAPP" scheme="https://187370.github.io/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/CSAPP/"/>
     
     
-    <category term="笔记" scheme="https://187370.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
-    
     <category term="ics" scheme="https://187370.github.io/tags/ics/"/>
+    
+    <category term="笔记" scheme="https://187370.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
