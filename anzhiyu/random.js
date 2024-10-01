@@ -1,3 +1,3 @@
-var posts=["2024/08/30/CSAPP/","2024/08/25/hello-world/","2024/09/12/ics第一周-信息的表示和处理/","2024/09/20/algorithm/","2024/09/23/ics第三周-程序的机器级表示/","2024/09/26/ics第三周：程序的机器级表示/","2024/09/14/ics第二周-信息的表示和处理续/","2024/09/20/ics第二周-程序的机器级表示/","2024/09/24/test/","2024/09/04/title/"];function toRandomPost(){
+var posts=["posts/a0419e9f/","posts/4a17b156/","posts/4b0178e0/","posts/ded8437/","posts/7c8b4f72/","posts/ded8437/","posts/d253f8ca/","posts/4145f9d2/","posts/d87f7e0c/","posts/cd1fec94/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
