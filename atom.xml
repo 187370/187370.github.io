@@ -6,7 +6,7 @@
   <link href="https://pku-cs-cjw.top/atom.xml" rel="self"/>
   
   <link href="https://pku-cs-cjw.top/"/>
-  <updated>2024-10-04T07:56:58.738Z</updated>
+  <updated>2024-10-06T11:09:05.549Z</updated>
   <id>https://pku-cs-cjw.top/</id>
   
   <author>
@@ -21,16 +21,14 @@
     <link href="https://pku-cs-cjw.top/posts/5cca8783/"/>
     <id>https://pku-cs-cjw.top/posts/5cca8783/</id>
     <published>2024-09-26T11:31:43.000Z</published>
-    <updated>2024-10-04T07:56:58.738Z</updated>
+    <updated>2024-10-06T11:09:05.549Z</updated>
     
     
     <summary type="html">3.7过程的笔记！快放假吧，孩子快死了</summary>
     
     
     
-    <category term="ics" scheme="https://pku-cs-cjw.top/categories/ics/"/>
-    
-    <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/ics/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
@@ -40,29 +38,11 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="https://pku-cs-cjw.top/posts/d87f7e0c/"/>
-    <id>https://pku-cs-cjw.top/posts/d87f7e0c/</id>
-    <published>2024-09-24T11:50:00.000Z</published>
-    <updated>2024-10-01T10:29:00.913Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;div calss=&#39;anzhiyu-tag-link&#39;&gt;&lt;a class=&quot;</summary>
-      
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>ics第三周:程序的机器级表示</title>
     <link href="https://pku-cs-cjw.top/posts/ded8437/"/>
     <id>https://pku-cs-cjw.top/posts/ded8437/</id>
     <published>2024-09-23T04:54:51.000Z</published>
-    <updated>2024-10-04T07:54:50.041Z</updated>
+    <updated>2024-10-06T11:08:59.965Z</updated>
     
     
       
@@ -72,9 +52,7 @@
     
     
     
-    <category term="CSAPP" scheme="https://pku-cs-cjw.top/categories/CSAPP/"/>
-    
-    <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/CSAPP/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
     
     <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
@@ -88,7 +66,7 @@
     <link href="https://pku-cs-cjw.top/posts/4145f9d2/"/>
     <id>https://pku-cs-cjw.top/posts/4145f9d2/</id>
     <published>2024-09-20T11:12:21.000Z</published>
-    <updated>2024-10-01T10:29:00.912Z</updated>
+    <updated>2024-10-06T11:09:13.279Z</updated>
     
     
       
@@ -101,8 +79,6 @@
     
     <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="CSAPP" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/CSAPP/"/>
-    
     
     <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
@@ -113,36 +89,11 @@
   </entry>
   
   <entry>
-    <title>数据结构与算法</title>
-    <link href="https://pku-cs-cjw.top/posts/4b0178e0/"/>
-    <id>https://pku-cs-cjw.top/posts/4b0178e0/</id>
-    <published>2024-09-20T00:10:32.000Z</published>
-    <updated>2024-10-01T10:29:00.905Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;[toc]&lt;/p&gt;
-&lt;p&gt;&amp;#x3D;&amp;#x3D;数据结构与算法&amp;#x3D</summary>
-      
-    
-    
-    
-    <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-    <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-    <category term="数算" scheme="https://pku-cs-cjw.top/tags/%E6%95%B0%E7%AE%97/"/>
-    
-  </entry>
-  
-  <entry>
     <title>ics第二周:信息的表示和处理续</title>
     <link href="https://pku-cs-cjw.top/posts/d253f8ca/"/>
     <id>https://pku-cs-cjw.top/posts/d253f8ca/</id>
     <published>2024-09-14T05:58:04.000Z</published>
-    <updated>2024-10-01T10:29:00.911Z</updated>
+    <updated>2024-10-06T11:09:19.954Z</updated>
     
     
       
@@ -154,12 +105,10 @@
     
     <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="CSAPP" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/CSAPP/"/>
-    
-    
-    <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
     <category term="ics" scheme="https://pku-cs-cjw.top/tags/ics/"/>
+    
+    <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -168,7 +117,7 @@
     <link href="https://pku-cs-cjw.top/posts/7c8b4f72/"/>
     <id>https://pku-cs-cjw.top/posts/7c8b4f72/</id>
     <published>2024-09-12T10:49:06.000Z</published>
-    <updated>2024-09-18T07:16:05.927Z</updated>
+    <updated>2024-10-06T11:08:53.348Z</updated>
     
     
       
@@ -181,12 +130,10 @@
     
     <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     
-    <category term="CSAPP" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/CSAPP/"/>
-    
-    
-    <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
     <category term="ics" scheme="https://pku-cs-cjw.top/tags/ics/"/>
+    
+    <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
@@ -209,47 +156,6 @@
     
     
     <category term="鸡汤" scheme="https://pku-cs-cjw.top/tags/%E9%B8%A1%E6%B1%A4/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSAPP</title>
-    <link href="https://pku-cs-cjw.top/posts/a0419e9f/"/>
-    <id>https://pku-cs-cjw.top/posts/a0419e9f/</id>
-    <published>2024-08-30T09:04:48.918Z</published>
-    <updated>2024-10-01T10:29:00.902Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;[TOC]&lt;/p&gt;
-&lt;h1 id=&quot;信息的表示和处理&quot;&gt;&lt;a href=&quot;</summary>
-      
-    
-    
-    
-    <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://pku-cs-cjw.top/posts/4a17b156/"/>
-    <id>https://pku-cs-cjw.top/posts/4a17b156/</id>
-    <published>2024-08-25T09:42:44.605Z</published>
-    <updated>2024-10-01T10:29:00.904Z</updated>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;</summary>
-      
-    
-    
-    
-    <category term="HEXO" scheme="https://pku-cs-cjw.top/categories/HEXO/"/>
-    
     
   </entry>
   
