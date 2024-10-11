@@ -6,7 +6,7 @@
   <link href="https://pku-cs-cjw.top/atom.xml" rel="self"/>
   
   <link href="https://pku-cs-cjw.top/"/>
-  <updated>2024-10-06T11:09:05.549Z</updated>
+  <updated>2024-10-11T05:34:55.441Z</updated>
   <id>https://pku-cs-cjw.top/</id>
   
   <author>
@@ -15,6 +15,26 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>智能</title>
+    <link href="https://pku-cs-cjw.top/posts/dd893702/"/>
+    <id>https://pku-cs-cjw.top/posts/dd893702/</id>
+    <published>2024-10-11T05:32:32.000Z</published>
+    <updated>2024-10-11T05:34:55.441Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在某个虚拟世界的边界，有一片没有人类足迹的小小角落，存在着一种奇特的生活形</summary>
+      
+    
+    
+    
+    
+    <category term="水文" scheme="https://pku-cs-cjw.top/tags/%E6%B0%B4%E6%96%87/"/>
+    
+  </entry>
   
   <entry>
     <title>ics第三周:程序的机器级表示续</title>
