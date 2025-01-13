@@ -6,7 +6,7 @@
   <link href="https://pku-cs-cjw.top/atom.xml" rel="self"/>
   
   <link href="https://pku-cs-cjw.top/"/>
-  <updated>2024-11-15T11:28:36.801Z</updated>
+  <updated>2025-01-13T10:48:40.836Z</updated>
   <id>https://pku-cs-cjw.top/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数算期末复习</title>
+    <link href="https://pku-cs-cjw.top/posts/ef66d2a/"/>
+    <id>https://pku-cs-cjw.top/posts/ef66d2a/</id>
+    <published>2025-01-13T10:49:06.000Z</published>
+    <updated>2025-01-13T10:48:40.836Z</updated>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;通知&quot;&gt;&lt;a href=&quot;#通知&quot; class=&quot;headerl</summary>
+      
+    
+    
+    
+    <category term="学习笔记" scheme="https://pku-cs-cjw.top/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    
+    
+    <category term="笔记" scheme="https://pku-cs-cjw.top/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+    <category term="数算" scheme="https://pku-cs-cjw.top/tags/%E6%95%B0%E7%AE%97/"/>
+    
+  </entry>
   
   <entry>
     <title>内排序</title>
