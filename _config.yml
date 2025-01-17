@@ -13,12 +13,41 @@ timezone: ''
 email: 2715768122@qq.com
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://187370.github.io
-permalink: :year/:month/:day/:title/
+url: https://pku-cs-cjw.top
+permalink: posts/:abbrlink/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+
+# hexo-butterfly-categories-card
+# see https://akilar.top/posts/a9131002/
+categoryBar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 1
+  column: odd # odd：3列 | even：4列
+  row: 2 #显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: 学习笔记
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
+    - descr: 大学生涯
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
+    - descr: 日常生活
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
+#    - descr: 个人日记
+#      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
+#    - descr: 诗词歌赋
+#      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
+#    - descr: 杂谈教程
+#      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css
+
 
 
 # APlayer
@@ -26,6 +55,18 @@ pretty_urls:
 aplayer:
   meting: true
   asset_inject: false
+
+# RSS订阅源
+# hexo-generator-feed
+feed:
+  enable: true
+  content: false
+  content_limit: 40
+  type: 
+    - atom
+  path: 
+    - atom.xml
+  limit: 25
 
 
 bangumi: # 追番设置
@@ -134,6 +175,19 @@ index_generator:
 default_category: uncategorized
 category_map:
 tag_map:
+
+abbrlink:
+  alg: crc32
+  rep: hex
+  drafts: false
+  auto_category:
+    enable: true
+    depth: 3
+    over_write: false
+  auto_title: false
+  auto_date: false
+  force: false
+
 
 # Metadata elements
 ## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta

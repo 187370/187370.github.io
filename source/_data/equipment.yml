@@ -1,7 +1,7 @@
 - class_name: 数码设备
   description: 实物装备推荐
   tip: 跟 C+V 一起享受科技带来的乐趣
-  top_background: https://bu.dusays.com/2023/07/05/64a4c38842b7a.webp
+  top_background: https://pku-cs-cjw.top/image/装备头.webp
   good_things:
     - title: 生产力
       description: 提升自己生产效率的硬件设备
@@ -9,22 +9,22 @@
         - name: Lenovo Legion Y7000 2021
           specification: i5-11400H NVDIA3050 32G / 1TB
           description: 别买，垃圾玩意
-          image: https://krseoul.imgtbl.com/i/2024/08/28/66ce9784900b8.jpg
+          image: https://pku-cs-cjw.top/image/联想.jpg
           link: https://re.jd.com/search?keyword=%E8%81%94%E6%83%B3%E6%8B%AF%E6%95%91%E8%80%85y7000%202021%E6%AC%BE&enc=utf-8
         - name: xiaomi pad 5
           specification: 8+256G
           description: 真不习惯用平板做笔记，所以用来看PPT效果不错，如果做笔记还是建议ipad，不过是姐姐送的，耶嘿！
-          image: https://krseoul.imgtbl.com/i/2024/08/28/66ce97d4aac9e.jpg
+          image: https://pku-cs-cjw.top/image/小米平板.jpg
           link: https://www.mi.com/xiaomipad5
         - name: xiaomi 12spro
           specification: 黑色 / 12+512G
           description: 玻璃背板,曲面屏设计，裸机握持手感没的说，徕卡影像，拍照一绝，续航也还好，入坑小米的第一款机型！
-          image: https://krseoul.imgtbl.com/i/2024/08/28/66ce9784eaa14.png
+          image: https://pku-cs-cjw.top/image/小米手机.jpg
           link: https://www.mi.com/mi12s-pro
         - name: EDIFIER zero pro
           specification: 白色
           description: 200价位入耳型耳机卷王，还行！
-          image: https://krseoul.imgtbl.com/i/2024/08/28/66ce977c9a861.jpg
+          image: https://pku-cs-cjw.top/image/耳机.jpg
           link: https://item.jd.com/100052917498.html?extension_id=eyJhZCI6IjI2OCIsImNoIjoiMiIsInNrdSI6IjEwMDA1MjkxNzQ5OCIsInRzIjoiMTcyNDgxNTU0MyIsInVuaXFpZCI6IntcImNsaWNrX2lkXCI6XCIwZDg2YWE5Yy1kOGZkLTRhNjYtODBhZS01ZjZkNTQ5MWQwNzFcIixcIm1hdGVyaWFsX2lkXCI6XCI5MDc2MDcyNzYxNDE5NDI4MzMzXCIsXCJwb3NfaWRcIjpcIjI2OFwiLFwic2lkXCI6XCI0OWEzNTVmMy0wZDMzLTQwZDItYmNhYy1iYTUyMWI2NTBkNzhcIn0ifQ==&jd_pop=0d86aa9c-d8fd-4a66-80ae-5f6d5491d071&abt=0
     - title: 出行
       description: 用来出行的实物及设备
@@ -32,5 +32,5 @@
         - name: xiaomi smart band 8 pro
           specification: 白色
           description: 不想打扰舍友休息的闹钟，站立提醒小助手，通知必达，蓝牙5.2，续航超棒，性价比超高
-          image: https://krseoul.imgtbl.com/i/2024/08/28/66ce977c9194a.jpg
+          image: https://pku-cs-cjw.top/image/小米手环.jpg
           link: https://www.mi.com/global/product/xiaomi-smart-band-8-pro/
