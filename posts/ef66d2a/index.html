@@ -1,0 +1,1443 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>数算期末复习 | C+V</title><meta name="keywords" content="笔记,数算"><meta name="author" content="C+V,2715768122@qq.com"><meta name="copyright" content="C+V"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="数算期末复习"><meta name="application-name" content="数算期末复习"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="article"><meta property="og:title" content="数算期末复习"><meta property="og:url" content="https://pku-cs-cjw.top/posts/ef66d2a/index.html"><meta property="og:site_name" content="C+V"><meta property="og:description" content="通知由于本篇过大，hexo架构渲染时有点问题，这里有pdf版本      引用站外地址                                                        pdf版本              有点多"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://pku-cs-cjw.top/img/default_cover.jpg"><meta property="article:author" content="C+V"><meta property="article:tag" content="可爱"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://pku-cs-cjw.top/img/default_cover.jpg"><meta name="description" content="通知由于本篇过大，hexo架构渲染时有点问题，这里有pdf版本      引用站外地址                                                        pdf版本              有点多"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://pku-cs-cjw.top/posts/ef66d2a/"><link rel="preconnect" href="//cdn.cbd.int"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  linkPageTop: {"enable":true,"title":"与各位大佬无限进步","addFriendPlaceholder":"昵称（请勿包含博客等字样）：\n网站地址（要求博客地址，请勿提交个人主页）：\n头像图片url（请提供尽可能清晰的图片，我会上传到我自己的图床）：\n描述：\n站点截图（可选）：\n"},
+  peoplecanvas: undefined,
+  postHeadAiDescription: {"enable":true,"gptName":"Chat","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"sk-Ma8nmsjNn5A2huh6F66bBd59C6B7423888Fb52C7B96d3731","Referer":"https://burn.hair/"},
+  diytitle: {"enable":true,"leaveTitle":"w(ﾟДﾟ)w 不要走！再看看嘛！","backTitle":"♪(^∇^*)欢迎肥来C+V's blog！"},
+  LA51: {"enable":true,"ck":"3JWBrTeuJco67s46","LingQueMonitorID":""},
+  greetingBox: {"enable":true,"default":"晚上好👋","list":[{"greeting":"晚安😴","startTime":0,"endTime":5},{"greeting":"早上好鸭👋, 祝你一天好心情！","startTime":6,"endTime":9},{"greeting":"上午好👋, 状态很好，鼓励一下～","startTime":10,"endTime":10},{"greeting":"11点多啦, 在坚持一下就吃饭啦～","startTime":11,"endTime":11},{"greeting":"午安👋, 宝贝","startTime":12,"endTime":14},{"greeting":"🌈充实的一天辛苦啦！","startTime":14,"endTime":18},{"greeting":"19点喽, 奖励一顿丰盛的大餐吧🍔。","startTime":19,"endTime":19},{"greeting":"晚上好👋, 在属于自己的时间好好放松😌~","startTime":20,"endTime":24}]},
+  twikooEnvId: 'https://cjw-cs-pku.fun',
+  commentBarrageConfig:{"enable":true,"maxBarrage":1,"barrageTime":4000,"accessToken":"","mailMd5":""},
+  root: '/',
+  preloader: {"source":3},
+  friends_vue_info: undefined,
+  navMusic: true,
+  mainTone: undefined,
+  authorStatus: {"skills":["🤖️ 数码科技爱好者","🔍 分享与热心帮助","🎮 电子游戏小菜登","🔨 crtl+c/v大专家","严重社交恐惧症 🤝","脚踏实地行动派 🏃","搬砖在行牛马人 🧱","壮汉人狠话不多 💢"]},
+  algolia: undefined,
+  localSearch: undefined,
+  translate: {"defaultEncoding":2,"translateDelay":0,"msgToTraditionalChinese":"繁","msgToSimplifiedChinese":"简","rightMenuMsgToTraditionalChinese":"转为繁体","rightMenuMsgToSimplifiedChinese":"转为简体"},
+  noticeOutdate: {"limitDay":30,"position":"top","messagePrev":"距离上次更新已经过去了","messageNext":"天，文章内容可能已经过时"},
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":330},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    simplehomepage: true,
+    post: false
+  },
+  runtime: '天',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"copy":true,"copyrightEbable":false,"limitCount":50,"languages":{"author":"作者: C+V","link":"链接: ","source":"来源: C+V","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。","copySuccess":"复制成功，复制和转载请标注本文地址"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#425AEF","bgDark":"#1f1f1f","position":"top-center"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.min.js',
+      css: 'https://cdn.cbd.int/flickr-justified-gallery@2.1.2/dist/fjGallery.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: true,
+  isAnchor: true,
+  shortcutKey: undefined,
+  autoDarkmode: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  configTitle: 'C+V',
+  title: '数算期末复习',
+  postAI: '',
+  pageFillDescription: '通知, 图, 图的表示, 概念, 图的相邻矩阵表示法, 图的邻接表表示法, 十字链表（不考）, 图的周游, 深度优先搜索(DFS), 时间复杂度分析, 深度优先搜索树, 广度优先搜索(BFS), 拓扑排序（重点）, 复杂度, DFS——拓扑排序, 最短路径算法, 单源最短路径（Dijkstra算法）, 多源最短路径（Floyd算法）, 最小生成（支撑）树, Kruskal算法, 内排序, 插入排序, 直接插入排序, 优化的插入排序算法, 基于二分查找的插入排序, 冒泡排序, 直接选择排序, x3Dx3Dshell排序x3Dx3D, x3Dx3D快速排序x3Dx3D, 归并排序, 堆排序, 桶排序, x3Dx3D基数排序x3Dx3D, 如何实现, 算法分析, x3Dx3D重点x3Dx3D, 外排序, 外排序的时间组成, 置换选择排序, 归并排序, 多路归并树, 赢者树, 败者树, 多路归并的效率, 检索, 顺序检索, x3Dx3D二分检索x3Dx3D, 散列表的检索, 重要概念, 散列函数, 除余法, 平方取中法, 折叠法, 冲突解决, 开散列方法, 拉链法, 桶式散列, 闭散列方法, 线性探测, 改进线性探查, 二次探查, 二级聚集, 双散列探查法, 散列表的插入, 散列表的检索, 散列表的删除, 索引, 线性索引, 静态索引, 倒排索引, B树, 效率分析, 红黑树, 高级数据结构, 特殊矩阵, 广义表, 最佳BST树, x3Dx3DAVLx3Dx3D, 伸展树通知由于本篇过大架构渲染时有点问题这里有版本引用站外地址版本有点多北大信息学院数据结构与算法期末考试考试时间和地点考试时间第周周日上午考试地点理教考试题型填空或者选择简答与辨析算法填空和设计分析与证明注意数据结构算法设计与分析题只要写明基本思想无歧义即可必要时加上足够的注释对于算法中直接使用的类和函数例如栈队列的函数应该先写并简单说明算法中用到的重要函数的功能入口参数出口参数考试范围和重点章以本文最后的内容为复习重点尤其是标出部分为重中之重考试时如果涉及到本大纲没有列出的内容那么试卷中会给出足够的定义和性质考场安排和注意事项没有正式选课的旁听同学请不要来考场请随身带好您的学生证或其他可以证明身份的证件笔和涂改工具参加考试考试形式为闭卷可以使用计算器考前分钟请大家把书包课本讲义作业本自带的草稿纸等放在教室前面的讲台和窗台上只需要留下学生证或其他可以证明身份的证件笔和涂改工具教室清理干净后可以提前分钟发放试卷带有草稿纸和答题纸可以撕下来从前排向后排发放注意在试卷纸和有效答题纸上写上姓名和学号并且一定要在试卷纸的诚实答题宣言旁边的姓名和学号栏签名否则试卷计零分我们统一发草稿纸不够可以随时举手要请大家注意考场纪律不要交头接耳私下讨论考试时对试题有疑问可以举手待监考老师来到旁边时再请向监考老师询问考试时间为分钟中间不休息提前分钟提醒大家整理试卷注意写好姓名和学号监考老师宣布考试时间到以后请大家停笔不停笔的同学监考老师有权没收试卷并宣布作废把草稿纸和答题纸放在试卷上面使姓名和学号朝外诚实答题宣言旁边的姓名和学号朝向最外面对折以后放在桌面上监考老师收卷清点无误并宣布全班同学都可以离开了以后方可集体离开注意不要把试卷题带出考场否则将计零分提前交卷的同学把试卷交到讲台上并收拾好自己的东西迅速离开考场答疑安排随时联系助教或者老师进行答疑复习大纲从第章图考到第章高级数据结构各章节以下面的内容为复习重点尤其是绿颜色文字或标出部分为重中之重期中考过的内容期末不直接考察但可能在内容上有所涉及第章图一概念图的深度周游图的宽度周游图的生成树生成树林最小生成树二方法及算法图的存储方法相邻矩阵和邻接表图的周游深度优先宽度优先图的生成树与最小生成树从某一点出发按深度优先或宽度优先周游的生成树最小生成树算法算法避圈法拓扑排序对于给定图找出若干个或所有拓扑序列任何有向无环图都可以拓扑排序最短路径算法算法算法属于动态规划法最小生成树算法算法都是典型的贪心法退化的动态规划法第章内排序重点排序算法直接插入法排序快速排序基数排序归并排序算法分析基于比较次数和移位次数分析最好最坏的时间空间直接插入法二分法插入排序起泡排序直接选择快速排序基数排序归并排序记住各种排序方法的平均时间各种排序方法的局部修改和混合应用第章文件管理和外排序二方法及算法置换选择排序多路归并败者树最佳归并树多路归并的读盘和写盘次数第章检索一概念平均检索长度二分法检索散列表同义词碰撞堆积二方法二分法检索的判定树查找某个结点的比较次数散列表散列函数的选择除余法平方取中法折叠法冲突处理方法分离同义词子表线性探测双散列函数三散列算法查找插入删除对墓碑的处理第章索引技术一概念顺序文件散列文件倒排文件静态索引结构动态索引结构树红黑树二方法不考算法代码树树的插入注意保持性质特别是等高以及子结点和关键码个数的上下限制树树的读盘和写盘次数分析树树的效率分析树中关键码没有重复父结点中的关键码是其子结点的分界中最底层是关键码的一个全集往根的方向一层层复写树插入插入分裂树插入插入分裂红黑树的插入方法插入算法首先是采用的方法把结点插入到位然后注意调整尤其是红红冲突的解决注意有换色重构第章高级数据结构一概念多维数组和稀疏矩阵广义表树树伸展树二方法特殊矩阵和稀疏矩阵的计算重点在于理清楚索引值的规律广义表的结构和周游字符树树和树只做了解最佳二叉搜索树需要理解平均检索长度最优的特点平衡二叉树的插入方法注意首先找到失衡结点注意的四种旋转调整不考删除算法但可能考相关性质伸展树及其简单应用伸展树在搜索过程中旋转调整结构使访问最频繁的结点靠近树结构的根伸展树的旋转分为单旋转一字形旋转和之字形旋转注意伸展树的变种例如半伸展树三算法树的插入及区间操作图图的表示点用边用概念邻接点相邻顶点一条边所连接的两个顶点成为邻接点顶点的度入度出度终端节点叶子是的度数有根图图的相邻矩阵表示法若或是图的边若或不是图的边加权矩阵图的邻接表表示法邻接矩阵表示法的特点矩阵的规模只与顶点的个数有关与边无关由于大量的边不存在造成空间浪费邻接表表示法即与顶点有关又与边有关顶点表对应个顶点包括顶点数据和指向边表的指针边链表对应条边包括顶点序号和指向边表下一表目指针需要个存储单元十字链表不考顶点表对应图的顶点三个域分别是顶点的数据入边表的头指针和出边表的头指针边链表对应图的边个域起点和终点的顶点序号边权值的值指针指向下一个以为起点的边指针指向下一个以为终点的边图的周游深度优先搜索从一个顶点出发访问它的所有邻接点再依次从这些邻接点出发访问它们的邻接点直到所有顶点都被访问过为止时间复杂度分析对每一条边处理一次无向图每条边从两个方向处理每个顶点访问一次邻接表表示法有向图为无向图为邻接矩阵表示法有向图为无向图为深度优先搜索树边的分类广度优先搜索广度优先搜索树初始化广度优先遍历要用到的队列访问顶点并标记其标志位入队如果队列仍然有元素取顶部元素并出队将与该点相邻的每一个未访问点都入队入队拓扑排序重点是指以某种线性顺序来组织多项任务以便能在满足先决条件的情况下逐个完成各项任务有向无环图进行拓扑排序从图中选择一个没有前驱的顶点输出它从图中删除该顶点和所有以它为起点的边重复上述两步直到所有顶点都已输出或者图中不存在无前驱的顶点为止若环路存在则无法进行拓扑排序最后仍然有顶点没有输出但没有入度为的顶点复杂度拓扑排序假设在中有一条有向路径从到根据拓扑排序的规则一定排在之前在中利用类似后序访问的规则当所有可以达到的节点被访问完以后才会被访问这样节点被访问的顺序恰好是拓扑排序的逆序注意深度优先搜索无法判断环的存在最短路径算法单源最短路径算法从一个顶点出发到其他所有顶点的最短路径类和算法用于保存最短路径信息顶点的索引值仅算法用到当前最短路径长度路径最后经过的顶点初始化数组数组标记为未访问初始化最短路径长度为无穷大设置顶点索引路径的前驱初始化为源点为路径长度设为声明一个最小值堆将源点初始化进堆找下一最短路径的顶点从堆中取出最小值如果是未访问的点该点加入已访问组如果没有找到退出标记顶点为已访问打印输出可选操作遍历的所有邻接边如果发现更短路径更新权值更新路径的前驱将更新后的节点重新加入堆多源最短路径算法方法一反复执行算法时间复杂度为方法二算法时间复杂度为最小生成支撑树算法算法代价即堆排序的时间复杂度内排序插入排序直接插入排序稳定时间复杂度空间复杂度优化的插入排序算法基于二分查找的插入排序插入最佳情况下代价为平均情况下代价为冒泡排序直接选择排序不稳定排序直接插入排序的个性质当较小时直接插入排序较快当序列基本有序时直接插入排序较快思想先将整个待排序的记录序列分割成若干子序列分别进行直接插入排序逐渐扩大子序列的长度直到整个序列被分为一个子序列快速排序轴值选择从待排序列中任选一个元素作为轴值序列划分划分为子序列和使得中的元素都小于中的元素都大于递归排序对和分别进行快速排序将轴值放在临时变量中左移交换轴值归位算法分析平均性能推导归并排序堆排序略桶排序只适用于较小的情况基数排序如何实现数组长度基数排序码位数算法分析临时数组个计数器空间代价次桶排序每次代价时间代价重点外排序文件流是以外存文件为输入输出对象的数据流文件流与文件不是同一个概念文件流不是由若干个文件组成的流文件流本身不是文件而只是以文件为输入输出对象的流外排序的时间组成产生初始顺串的内排序所需时间初始化顺串和归并过程所需的读写时间内部归并所需要的时间减少外存信息的读写次数是提高外部排序效率的关键置换选择排序归并排序多路归并树如何减小路比较时的比较次数选择树赢者树败者树赢者树败者树多路归并的效率检索平均检索长度为检索第个元素的概率为找到第个元素所需的比较次数顺序检索二分检索前提条件待检索序列有序散列表的检索重要概念散列函数除余法注意不能取偶数平方取中法折叠法冲突解决开散列方法拉链法桶式散列闭散列方法线性探测改进线性探查二次探查二级聚集双散列探查法避免二级聚集散列表的插入散列表的检索散列表的删除索引稀疏索引稠密索引线性索引静态索引倒排索引树插入看效率分析红黑树高级数据结构特殊矩阵广义表最佳树卡特兰数伸展树',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2025-01-13 18:49:04',
+  postMainColor: '',
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
+        }
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
+
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#18171d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#f7f9fe')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+          const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+          const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+          const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+
+          if (t === undefined) {
+            if (isLightMode) activateLightMode()
+            else if (isDarkMode) activateDarkMode()
+            else if (isNotSpecified || hasNoSupport) {
+              const now = new Date()
+              const hour = now.getHours()
+              const isNight = hour <= 6 || hour >= 18
+              isNight ? activateDarkMode() : activateLightMode()
+            }
+            window.matchMedia('(prefers-color-scheme: dark)').addListener(e => {
+              if (saveToLocal.get('theme') === undefined) {
+                e.matches ? activateDarkMode() : activateLightMode()
+              }
+            })
+          } else if (t === 'light') activateLightMode()
+          else activateDarkMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<link rel="stylesheet" href="https://npm.elemecdn.com/hexo-butterfly-categories-card@1.0.0/lib/categorybar.css"><!-- hexo injector head_end end --><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/atom.xml" title="C+V" type="application/atom+xml">
+</head><body data-type="anzhiyu"><div id="web_bg"></div><div id="an_music_bg"></div><div id="loading-box" onclick="document.getElementById(&quot;loading-box&quot;).classList.add(&quot;loaded&quot;)"><div class="loading-bg"><img class="loading-img nolazyload" alt="加载头像" src="https://s1.aigei.com/src/img/gif/af/af31b120297941e4a3e7e07486933cfb.gif?imageMogr2/auto-orient/thumbnail/!132x132r/gravity/Center/crop/132x132/quality/85/%7CimageView2/2/w/132&amp;e=1735488000&amp;token=P7S2Xpzfz11vAkASLTkfHN7Fw-oOZBecqeJaxypL:3rrE5aiae8mXZKiLB8764bUhX2M="/><div class="loading-image-dot"></div></div></div><script>const preloader = {
+  endLoading: () => {
+    document.getElementById('loading-box').classList.add("loaded");
+  },
+  initLoading: () => {
+    document.getElementById('loading-box').classList.remove("loaded")
+  }
+}
+window.addEventListener('load',()=> { preloader.endLoading() })
+setTimeout(function(){preloader.endLoading();},10000)
+
+if (true) {
+  document.addEventListener('pjax:send', () => { preloader.initLoading() })
+  document.addEventListener('pjax:complete', () => { preloader.endLoading() })
+}</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.10/progress_bar/progress_bar.css"/><script async="async" src="https://cdn.cbd.int/pace-js@1.2.4/pace.min.js" data-pace-options="{ &quot;restartOnRequestAfter&quot;:false,&quot;eventLag&quot;:false}"></script><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav id="nav"><div id="nav-group"><span id="blog_name"><div class="back-home-button"><i class="anzhiyufont anzhiyu-icon-grip-vertical"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/187370" title="github"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="github"/><span class="back-menu-item-text">github</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/YuanQiPKU/Reservoir" title="账目管理"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="账目管理"/><span class="back-menu-item-text">账目管理</span></a></div></div></div></div><a id="site-name" href="/" accesskey="h"><div class="title">C+V</div><i class="anzhiyufont anzhiyu-icon-house-chimney"></i></a><div id="he-plugin-simple"></div><script>var WIDGET = {
+  "CONFIG": {
+    "modules": "0124",
+    "background": "2",
+    "tmpColor": "FFFFFF",
+    "tmpSize": "16",
+    "cityColor": "FFFFFF",
+    "citySize": "16",
+    "aqiColor": "E8D87B",
+    "aqiSize": "16",
+    "weatherIconSize": "24",
+    "alertIconSize": "18",
+    "padding": "10px 10px 10px 10px",
+    "shadow": "0",
+    "language": "auto",
+    "borderRadius": "20",
+    "fixed": "true",
+    "vertical": "top",
+    "horizontal": "left",
+    "left": "20",
+    "top": "7.1",
+    "key": "df245676fb434a0691ead1c63341cd94"
+  }
+}
+</script><link rel="stylesheet" href="https://widget.qweather.net/simple/static/css/he-simple.css?v=1.4.0"/><script src="https://widget.qweather.net/simple/static/js/he-simple.js?v=1.4.0"></script></span><div class="mask-name-container"><div id="name-container"><a id="page-name" href="javascript:anzhiyu.scrollToDest(0, 500)">PAGE_NAME</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/fcircle/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> 朋友圈</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-dice-d20 faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/%E8%AE%A2%E9%98%85%E6%88%91%E5%90%A7"><span> 订阅我吧</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about-this-wed"><span> 关于此站</span></a></div></div></div><div id="nav-right"><div class="nav-button only-home" id="travellings_button" title="随机前往一个开往项目网站"><a class="site-page" onclick="anzhiyu.totraveling()" title="随机前往一个开往项目网站" href="javascript:void(0);" rel="external nofollow" data-pjax-state="external"><i class="anzhiyufont anzhiyu-icon-train"></i></a></div><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="随机前往一个文章" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-dice"></i></a></div><input id="center-console" type="checkbox"/><label class="widget" for="center-console" title="中控台" onclick="anzhiyu.switchConsole();"><i class="left"></i><i class="widget center"></i><i class="widget right"></i></label><div id="console"><div class="console-card-group-reward"><ul class="reward-all console-card"><li class="reward-item"><a href="https://img.picui.cn/free/2024/09/20/66ed05b62f204.png" target="_blank"><img class="post-qr-code-img" alt="微信" src="https://img.picui.cn/free/2024/09/20/66ed05b62f204.png"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://img.picui.cn/free/2024/09/20/66ed05b62dcea.png" target="_blank"><img class="post-qr-code-img" alt="支付宝" src="https://img.picui.cn/free/2024/09/20/66ed05b62dcea.png"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments"><div class="card-content"><div class="author-content-item-tips">互动</div><span class="author-content-item-title"> 最新评论</span></div><div class="aside-list"><span>正在加载中...</span></div></div></div><div class="console-card-group-right"><div class="console-card tags"><div class="card-content"><div class="author-content-item-tips">兴趣点</div><span class="author-content-item-title">寻找你感兴趣的领域</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/CSAPP/" style="font-size: 1.05rem;">CSAPP<sup>3</sup></a><a href="/tags/ICS/" style="font-size: 1.05rem;">ICS<sup>1</sup></a><a href="/tags/ics/" style="font-size: 1.05rem;">ics<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95A/" style="font-size: 1.05rem;">数据结构与算法A<sup>3</sup></a><a href="/tags/%E6%95%B0%E7%AE%97/" style="font-size: 1.05rem;">数算<sup>1</sup></a><a href="/tags/%E6%B0%B4%E6%96%87/" style="font-size: 1.05rem;">水文<sup>1</sup></a><a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 1.05rem;">笔记<sup>6</sup></a><a href="/tags/%E9%B8%A1%E6%B1%A4/" style="font-size: 1.05rem;">鸡汤<sup>1</sup></a></div></div><hr/></div></div><div class="console-card history"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-box-archiv"></i><span>文章</span></div><div class="card-archives"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2025/01/"><span class="card-archive-list-date">一月 2025</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/11/"><span class="card-archive-list-date">十一月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">3</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/10/"><span class="card-archive-list-date">十月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">1</span><span>篇</span></div></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/09/"><span class="card-archive-list-date">九月 2024</span><div class="card-archive-list-count-group"><span class="card-archive-list-count">6</span><span>篇</span></div></a></li></ul></div><hr/></div></div></div><div class="button-group"><div class="console-btn-item"><a class="darkmode_switchbutton" title="显示模式切换" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-moon"></i></a></div><div class="console-btn-item" id="consoleHideAside" onclick="anzhiyu.hideAsideBtn()" title="边栏显示控制"><a class="asideSwitch"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></a></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="anzhiyu.switchCommentBarrage()" title="热评开关"><a class="commentBarrage"><i class="anzhiyufont anzhiyu-icon-message"></i></a></div><div class="console-btn-item" id="consoleMusic" onclick="anzhiyu.musicToggle()" title="音乐开关"><a class="music-switch"><i class="anzhiyufont anzhiyu-icon-music"></i></a></div></div><div class="console-mask" onclick="anzhiyu.hideConsole()" href="javascript:void(0);"></div></div><div class="nav-button" id="nav-totop"><a class="totopbtn" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i><span id="percent" onclick="anzhiyu.scrollToDest(0,500)">0</span></a></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);" title="切换"><i class="anzhiyufont anzhiyu-icon-bars"></i></a></div></div></div></nav><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original">原创</a><span class="post-meta-categories"><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-inbox post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url">学习笔记</a></span><span class="article-meta tags"><a class="article-meta__tags" href="/tags/%E7%AC%94%E8%AE%B0/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>笔记</span></a><a class="article-meta__tags" href="/tags/%E6%95%B0%E7%AE%97/" tabindex="-1" itemprop="url"> <span> <i class="anzhiyufont anzhiyu-icon-hashtag"></i>数算</span></a></span></div></div><h1 class="post-title" itemprop="name headline">数算期末复习</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="anzhiyufont anzhiyu-icon-calendar-days post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" itemprop="dateCreated datePublished" datetime="2025-01-13T10:49:06.000Z" title="发表于 2025-01-13 18:49:06">2025-01-13</time><span class="post-meta-separator"></span><i class="anzhiyufont anzhiyu-icon-history post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" itemprop="dateCreated datePublished" datetime="2025-01-13T10:49:04.994Z" title="更新于 2025-01-13 18:49:04">2025-01-13</time></span></div><div class="meta-secondline"><span class="post-meta-separator"></span><span class="leancloud_visitors" id="/posts/ef66d2a/" data-flag-title="数算期末复习"><i class="anzhiyufont anzhiyu-icon-fw-eye post-meta-icon"></i><span class="post-meta-label" title="阅读量">阅读量:</span><span class="leancloud-visitors-count" title="访问量"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></span><span class="post-meta-separator">       </span><span class="post-meta-position" title="作者IP属地为北京"><i class="anzhiyufont anzhiyu-icon-location-dot"></i>北京</span><span class="post-meta-separator"></span><span class="post-meta-commentcount"><i class="anzhiyufont anzhiyu-icon-comments post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="/posts/ef66d2a/#post-comment" itemprop="discussionUrl"><span class="valine-comment-count" data-xid="/posts/ef66d2a/" itemprop="commentCount"><i class="anzhiyufont anzhiyu-icon-spinner anzhiyu-spin"></i></span></a></span></div></div></div><section class="main-hero-waves-area waves-area"><svg class="waves-svg" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto"><defs><path id="gentle-wave" d="M -160 44 c 30 0 58 -18 88 -18 s 58 18 88 18 s 58 -18 88 -18 s 58 18 88 18 v 44 h -352 Z"></path></defs><g class="parallax"><use href="#gentle-wave" x="48" y="0"></use><use href="#gentle-wave" x="48" y="3"></use><use href="#gentle-wave" x="48" y="5"></use><use href="#gentle-wave" x="48" y="7"></use></g></svg></section><div id="post-top-cover"><img class="nolazyload" id="post-top-bg" src="/img/default_cover.jpg"></div></header><main id="blog-container"><div class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container" itemscope itemtype="https://pku-cs-cjw.top/posts/ef66d2a/"><header><a class="post-meta-categories" href="/categories/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/" itemprop="url">学习笔记</a><a href="/tags/%E7%AC%94%E8%AE%B0/" tabindex="-1" itemprop="url">笔记</a><a href="/tags/%E6%95%B0%E7%AE%97/" tabindex="-1" itemprop="url">数算</a><h1 id="CrawlerTitle" itemprop="name headline">数算期末复习</h1><span itemprop="author" itemscope itemtype="http://schema.org/Person">C+V</span><time itemprop="dateCreated datePublished" datetime="2025-01-13T10:49:06.000Z" title="发表于 2025-01-13 18:49:06">2025-01-13</time><time itemprop="dateCreated datePublished" datetime="2025-01-13T10:49:04.994Z" title="更新于 2025-01-13 18:49:04">2025-01-13</time></header><h1 id="通知"><a href="#通知" class="headerlink" title="通知"></a>通知</h1><p>由于本篇过大，hexo架构渲染时有点问题，这里有pdf版本</p>
+<div calss='anzhiyu-tag-link'><a class="tag-Link" target="_blank" href="https://pku-cs-cjw.top/数算期末复习.pdf">
+    <div class="tag-link-tips">引用站外地址</div>
+    <div class="tag-link-bottom">
+        <div class="tag-link-left" style="background-image: url(https://img.picui.cn/free/2024/09/20/66ed060ab82d2.jpg)">
+          <i class="anzhiyufont anzhiyu-icon-link" style="display: none"></i>
+        </div>
+        <div class="tag-link-right">
+            <div class="tag-link-title">pdf版本</div>
+            <div class="tag-link-sitename"> 有点多</div>
+        </div>
+        <i class="anzhiyufont anzhiyu-icon-angle-right"></i>
+    </div>
+    </a></div>
+
+
+
+
+
+<p>·         <strong>北大信息学院《数据结构与算法<strong><strong>A</strong></strong>》期末考试</strong></p>
+<p><strong>1.</strong>   <strong>考试时间和地点</strong></p>
+<p>考试时间：第1周 周日(2025.01.05) 上午 8:30 –10:30，</p>
+<p>考试地点: 理教303</p>
+<p><strong>2.</strong> <strong>考试题型</strong></p>
+<p>填空或者选择、简答与辨析、算法填空和设计分析与证明</p>
+<p>注意：</p>
+<p>（1）数据结构&#x2F;算法设计与分析题只要写明基本思想、无歧义即可，必要时加上足够的注释。</p>
+<p>（2）对于算法中直接使用的类和函数（例如栈、队列的函数），应该先写ADT，并简单说明算法中用到的重要函数的功能、入口参数、出口参数。</p>
+<p><strong>3.</strong> <strong>考试范围和重点</strong></p>
+<p>7-12章，以本文最后的内容为复习重点，尤其是★标出部分为重中之重。</p>
+<p>考试时如果涉及到本大纲没有列出的内容，那么试卷中会给出足够的定义和性质。</p>
+<p><strong>4.</strong> <strong>考场安排和注意事项</strong></p>
+<ol>
+<li>没有正式选课的旁听同学，请不要来考场。</li>
+<li>请随身带好您的学生证(或其他可以证明身份的证件)，笔和涂改工具参加考试。</li>
+<li>考试形式为闭卷，可以使用计算器。</li>
+</ol>
+<p> 4）考前10分钟，请大家把书包、课本、讲义、作业本、自带的草稿纸等放在教室前面的讲台和窗台上，只需要留下学生证(或其他可以证明身份的证件)，笔和涂改工具。教室清理干净后，可以提前5分钟发放试卷(带有草稿纸和答题纸，可以撕下来)，从前排向后排发放。注意在试卷纸和有效答题纸上写上姓名和学号，并且一定要在试卷纸的诚实答题宣言旁边的姓名和学号栏签名（否则，试卷计零分）。</p>
+<ol start="5">
+<li>我们统一发草稿纸，不够可以随时举手要。</li>
+<li>请大家注意考场纪律，不要交头接耳，私下讨论。考试时对试题有疑问，可以举手，待监考老师来到旁边时，再请向监考老师询问。</li>
+</ol>
+<p> 7）考试时间为120分钟，中间不休息。提前15分钟提醒大家整理试卷，注意写好姓名和学号。</p>
+<ol start="8">
+<li>监考老师宣布“考试时间到”以后，请大家停笔（不停笔的同学，监考老师有权没收试卷并宣布作废），把草稿纸和答题纸放在试卷上面，使姓名和学号朝外（诚实答题宣言旁边的姓名和学号朝向最外面），对折以后放在桌面上。监考老师收卷清点无误，并宣布“全班同学都可以离开了”以后方可集体离开。注意，不要把试卷题带出考场，否则将计零分。</li>
+<li>提前交卷的同学，把试卷交到讲台上，并收拾好自己的东西，迅速离开考场。</li>
+</ol>
+<p><strong>5.</strong> <strong>答疑安排</strong></p>
+<p>随时联系助教或者老师进行答疑！</p>
+<p><strong>复习大纲</strong></p>
+<p>从第7章图考到第12章高级数据结构。各章节以下面的内容为复习重点。尤其是绿颜色文字或★标出部分为重中之重。期中考过的内容，期末不直接考察，但可能在内容上有所涉及。</p>
+<p> <strong>第<strong><strong>7</strong></strong>章</strong> <strong>图</strong></p>
+<p>一. 概念</p>
+<ol>
+<li>图的深度周游</li>
+<li>图的宽度周游</li>
+<li>图的生成树、生成树林、最小生成树</li>
+</ol>
+<p>二. 方法及算法 ★</p>
+<ol>
+<li>图的存储方法★ 相邻矩阵和邻接表</li>
+<li>图的周游 （1） 深度优先 （2） 宽度优先</li>
+<li>图的生成树与最小生成树</li>
+</ol>
+<p>² 从某一点出发，按深度优先或宽度优先周游的生成树</p>
+<p>² 最小生成树 ① Prim算法 ② Kruskal算法(避圈法)</p>
+<ol start="4">
+<li>★ 拓扑排序 : 对于给定图，找出若干个或所有拓扑序列。任何有向无环图，都可以拓扑排序。</li>
+<li>★ 最短路径算法：Dijkstra算法、Floyd算法(属于动态规划法) ★</li>
+<li>★ 最小生成树：Prim算法、Kruskal算法都是典型的贪心法（退化的动态规划法）</li>
+</ol>
+<p><strong>★<strong><strong>第</strong></strong>8****章</strong> <strong>内排序</strong></p>
+<ol>
+<li>重点排序算法：直接插入法、★Shell排序、★快速排序、★基数排序、归并排序</li>
+<li>算法分析</li>
+</ol>
+<p>1）基于比较次数和移位次数分析最好、最坏的时间、空间：直接插入法、二分法插入排序、起泡排序、直接选择、快速排序、基数排序、归并排序</p>
+<p>  2） 记住各种排序方法的平均时间</p>
+<ol start="3">
+<li>各种排序方法的局部修改和混合应用</li>
+</ol>
+<p>　</p>
+<p><strong>第<strong><strong>9</strong></strong>章</strong> <strong>文件管理和外排序</strong></p>
+<p>二. 方法及算法</p>
+<ol>
+<li>★ 置换选择排序 </li>
+<li>★ 多路归并 (败者树，最佳归并树，多路归并的读盘和写盘次数)</li>
+</ol>
+<p><strong>第<strong><strong>10</strong></strong>章</strong> <strong>检索</strong></p>
+<p>一. 概念</p>
+<ol>
+<li>平均检索长度  </li>
+<li>二分法检索</li>
+</ol>
+<p>★3. 散列表、同义词、碰撞、堆积</p>
+<p>二. 方法</p>
+<ol>
+<li>二分法检索的判定树、查找某个结点的比较次数</li>
+<li>散列表: 1) 散列函数的选择 (除余法、平方取中法、折叠法)</li>
+</ol>
+<p>​         2) 冲突处理方法 (分离同义词子表、线性探测、双散列函数)</p>
+<p>★ 三. 散列算法（查找、插入、删除，对墓碑的处理）</p>
+<p><strong>第<strong><strong>11</strong></strong>章</strong> <strong>索引技术</strong></p>
+<p>一. 概念</p>
+<ol>
+<li>顺序文件 2. 散列文件 3. 倒排文件 4. 静态索引结构 5.动态索引结构(B树) 6. 红黑树</li>
+</ol>
+<p>二. 方法（不考算法代码）</p>
+<p> ★1.  B树、B+树的插入 (注意保持性质，特别是等高；以及子结点和关键码个数的上下限制)</p>
+<p> ★2. B树&#x2F;B+树的读盘和写盘次数分析 </p>
+<ol start="3">
+<li>B树&#x2F;B+树的效率分析</li>
+</ol>
+<p> B树中关键码没有重复，父结点中的关键码是其子结点的分界；B+中最底层是关键码的一个全集，往根的方向一层层复写。</p>
+<p>  B树插入 : 插入 ——- 分裂</p>
+<p>  B+树插入 : 插入 ——– 分裂</p>
+<p>  ★4.  红黑树的插入方法</p>
+<p>  插入算法首先是采用BST的方法把结点插入到位，然后注意调整。尤其是“红红”冲突的解决，注意有换色、重构。</p>
+<p><strong>第<strong><strong>12</strong></strong>章</strong> <strong>高级数据结构</strong></p>
+<p>一. 概念</p>
+<p> 1 . 多维数组和稀疏矩阵 2.  广义表  3. Trie树  4. Patricia 5.  AVL树  6. 伸展树</p>
+<p>二. 方法</p>
+<ol>
+<li>特殊矩阵和稀疏矩阵的计算，重点在于理清楚索引值的规律。</li>
+</ol>
+<p>★ 2. 广义表的结构和周游</p>
+<ol start="3">
+<li>字符树：Trie树和Patricia树 （只做了解）</li>
+<li>最佳二叉搜索树，需要理解平均检索长度最优的特点</li>
+</ol>
+<p>★ 5.  AVL平衡二叉树的插入方法：注意首先找到失衡结点，注意LL、LR、RL、RR的四种旋转调整。不考删除算法，但可能考相关性质</p>
+<p>★6. 伸展树及其简单应用：伸展树在搜索过程中旋转调整结构，使访问最频繁的结点靠近树结构的根。伸展树的旋转分为：单旋转、一字形旋转和之字形旋转。注意伸展树的变种，例如半伸展树。</p>
+<p>三. 算法</p>
+<p>Splay树的插入及区间操作。</p>
+<h1 id="图"><a href="#图" class="headerlink" title="图"></a>图</h1><h2 id="图的表示"><a href="#图的表示" class="headerlink" title="图的表示"></a>图的表示</h2><ul>
+<li>点用V</li>
+<li>边用E</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241230213044146.png" class="" title="image-20241230213044146">
+
+<h2 id="概念"><a href="#概念" class="headerlink" title="概念"></a>概念</h2><ul>
+<li>邻接点：相邻顶点<ul>
+<li>一条边所连接的两个顶点，成为<code>邻接点</code></li>
+</ul>
+</li>
+<li>顶点的度<ul>
+<li>入度</li>
+<li>出度</li>
+<li>终端节点（叶子）</li>
+</ul>
+</li>
+</ul>
+<p>$$<br>e&#x3D;\frac{1}{2}\sum_{i&#x3D;1}^nd_{i} \ \ \ \ d_i是V_i的度数<br>$$</p>
+<p>有根图</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241230214633519.png" class="" title="image-20241230214633519">
+
+<h2 id="图的相邻矩阵表示法"><a href="#图的相邻矩阵表示法" class="headerlink" title="图的相邻矩阵表示法"></a>图的相邻矩阵表示法</h2><p>$$<br>A[i,j]&#x3D;\begin{cases}<br>1,若(V_i,V_j)或&lt;V_i,V_j&gt;是图G的边\<br>0,若(V_i,V_j)或&lt;V_i,V_j&gt;不是图G的边<br>\end{cases}<br>$$</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241230215500049.png" class="" title="image-20241230215500049">
+
+<p>加权矩阵</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241230215753284.png" class="" title="image-20241230215753284">
+<p>$$<br>A_4&#x3D;\begin{bmatrix}<br>0&amp;3&amp;0&amp;15\<br>3&amp;0&amp;4&amp;0\<br>0&amp;4&amp;0&amp;6\<br>15&amp;0&amp;6&amp;0\<br> \end{bmatrix}<br>$$</p>
+<h2 id="图的邻接表表示法"><a href="#图的邻接表表示法" class="headerlink" title="图的邻接表表示法"></a>图的邻接表表示法</h2><p>邻接矩阵表示法的特点</p>
+<ul>
+<li>矩阵的规模只与顶点的个数n有关$n^2$</li>
+<li>与边无关</li>
+<li>由于大量的边不存在，造成空间浪费</li>
+</ul>
+<p>邻接表表示法</p>
+<ul>
+<li>即与顶点有关，又与边有关</li>
+<li>顶点表：对应n个顶点，包括顶点数据和指向边表的指针</li>
+<li>边链表：对应m条边，包括顶点序号和指向边表下一表目指针</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241230220152438.png" class="" title="image-20241230220152438">
+
+<p>*需要$|V|+2|E|$*个存储单元</p>
+<h2 id="十字链表（不考）"><a href="#十字链表（不考）" class="headerlink" title="十字链表（不考）"></a>十字链表（不考）</h2><p>顶点表：对应图的顶点，三个域，分别是顶点的数据，(<code>firstinarc</code>)入边表的头指针和(<code>firstoutarc</code>)出边表的头指针</p>
+<p>边链表：对应图的边，5个域，起点(<code>fromvex</code>)和终点(<code>tovex</code>)的顶点序号；边权值的info值；</p>
+<p><code>fromnextarc</code>指针指向下一个以<code>fromvex</code>为起点的边</p>
+<p><code>tonextarc</code>指针指向下一个以<code>tovex</code>为终点的边</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231133342919.png" class="" title="image-20241231133342919">
+
+<h2 id="图的周游"><a href="#图的周游" class="headerlink" title="图的周游"></a>图的周游</h2><h3 id="深度优先搜索-DFS"><a href="#深度优先搜索-DFS" class="headerlink" title="深度优先搜索(DFS)"></a>深度优先搜索(DFS)</h3><ul>
+<li>从一个顶点出发，访问它的所有邻接点，再依次从这些邻接点出发，访问它们的邻接点，直到所有顶点都被访问过为止</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231133652586.png" class="" title="image-20241231133652586">
+
+<h4 id="时间复杂度分析"><a href="#时间复杂度分析" class="headerlink" title="时间复杂度分析"></a>时间复杂度分析</h4><ul>
+<li><code>dfs</code>对每一条边处理一次（无向图每条边从两个方向处理），每个顶点访问一次</li>
+<li>邻接表表示法：有向图为$O(|V|+|E|)$，无向图为$O(|V|+2|E|)$</li>
+<li>邻接矩阵表示法：有向图为$O(|V|^2)$，无向图为$O(|V|^2)$</li>
+</ul>
+<h4 id="深度优先搜索树"><a href="#深度优先搜索树" class="headerlink" title="深度优先搜索树"></a>深度优先搜索树</h4><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231134006942.png" class="" title="image-20241231134006942">
+
+<p>边的分类</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231134115557.png" class="" title="image-20241231134115557">
+
+<h3 id="广度优先搜索-BFS"><a href="#广度优先搜索-BFS" class="headerlink" title="广度优先搜索(BFS)"></a>广度优先搜索(BFS)</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231134322805.png" class="" title="image-20241231134322805">
+
+<p>广度优先搜索树</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231134342498.png" class="" title="image-20241231134342498">
+
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">BFS</span><span class="params">(Graph&amp; G, <span class="type">int</span> V)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">using</span> std::queue; <span class="comment">// 初始化广度优先遍历要用到的队列</span></span><br><span class="line">    queue&lt;<span class="type">int</span>&gt; Q;</span><br><span class="line">    G.Mark[V] = VISITED; <span class="comment">// 访问顶点V，并标记其标志位，V入队</span></span><br><span class="line">    <span class="built_in">Visit</span>(G, V); </span><br><span class="line">    Q.<span class="built_in">push</span>(V);</span><br><span class="line"></span><br><span class="line">    <span class="keyword">while</span> (!Q.<span class="built_in">empty</span>()) &#123; <span class="comment">// 如果队列仍然有元素</span></span><br><span class="line">        <span class="type">int</span> V = Q.<span class="built_in">front</span>(); </span><br><span class="line">        Q.<span class="built_in">pop</span>(); <span class="comment">// 取顶部元素，并出队</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">// 将与该点相邻的每一个未访问点都入队</span></span><br><span class="line">        <span class="keyword">for</span> (Edge e = G.<span class="built_in">FirstEdge</span>(V); G.<span class="built_in">IsEdge</span>(e); e = G.<span class="built_in">NextEdge</span>(e)) &#123;</span><br><span class="line">            <span class="keyword">if</span> (G.Mark[G.<span class="built_in">ToVertex</span>(e)] == UNVISITED) &#123;</span><br><span class="line">                G.Mark[G.<span class="built_in">ToVertex</span>(e)] = VISITED;</span><br><span class="line">                <span class="built_in">Visit</span>(G, G.<span class="built_in">ToVertex</span>(e));</span><br><span class="line">                Q.<span class="built_in">push</span>(G.<span class="built_in">ToVertex</span>(e)); <span class="comment">// 入队</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="拓扑排序（重点）"><a href="#拓扑排序（重点）" class="headerlink" title="拓扑排序（重点）"></a>拓扑排序（重点）</h3><ul>
+<li><p>是指以某种线性顺序来组织多项任务，以便能在满足先决条件的情况下逐个完成各项任务</p>
+<ul>
+<li>有向无环图(DAG)进行拓扑排序</li>
+<li>从图中选择一个没有前驱的顶点，输出它</li>
+<li>从图中删除该顶点和所有以它为起点的边</li>
+<li>重复上述两步，直到所有顶点都已输出，或者图中不存在无前驱的顶点为止</li>
+</ul>
+</li>
+<li><p>若环路存在，则无法进行拓扑排序（最后仍然有顶点没有输出，但没有入度为0的顶点）</p>
+</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231134902584.png" class="" title="image-20241231134902584">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231134943299.png" class="" title="image-20241231134943299">
+
+<h3 id="复杂度"><a href="#复杂度" class="headerlink" title="复杂度"></a>复杂度</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231135145264.png" class="" title="image-20241231135145264">
+
+<h3 id="DFS——拓扑排序"><a href="#DFS——拓扑排序" class="headerlink" title="DFS——拓扑排序"></a>DFS——拓扑排序</h3><p>假设在DAG中有一条有向路径从vi到vj，根据拓扑排序的规则，vi一定排在vj之前。在DFS中利用类似后序访问的规则，当vi所有可以达到的节点被访问完以后，vi才会被访问，这样节点被访问的顺序，恰好是拓扑排序的逆序。</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231135300696.png" class="" title="image-20241231135300696">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231135307592.png" class="" title="image-20241231135307592">
+
+<p><strong>注意</strong>：深度优先搜索无法判断环的存在</p>
+<h2 id="最短路径算法"><a href="#最短路径算法" class="headerlink" title="最短路径算法"></a>最短路径算法</h2><h3 id="单源最短路径（Dijkstra算法）"><a href="#单源最短路径（Dijkstra算法）" class="headerlink" title="单源最短路径（Dijkstra算法）"></a>单源最短路径（<code>Dijkstra</code>算法）</h3><ul>
+<li>从一个顶点出发，到其他所有顶点的最短路径</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231140547407.png" class="" title="image-20241231140547407">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231140642252.png" class="" title="image-20241231140642252">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231140845626.png" class="" title="image-20241231140845626">
+
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Dist</span> &#123; </span><br><span class="line">    <span class="comment">// Dist类，Dijkstra和Floyd算法用于保存最短路径信息</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> index;   <span class="comment">// 顶点的索引值，仅Dijkstra算法用到</span></span><br><span class="line">    <span class="type">int</span> length;  <span class="comment">// 当前最短路径长度</span></span><br><span class="line">    <span class="type">int</span> pre;     <span class="comment">// 路径最后经过的顶点</span></span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">Dijkstra</span><span class="params">(Graph&amp; G, <span class="type">int</span> s, Dist* &amp;D)</span> </span>&#123;</span><br><span class="line">    D = <span class="keyword">new</span> Dist[G.<span class="built_in">VerticesNum</span>()]; <span class="comment">// 初始化Mark数组、D数组</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; G.<span class="built_in">VerticesNum</span>(); i++) &#123;</span><br><span class="line">        G.Mark[i] = UNVISITED;     <span class="comment">// 标记为未访问</span></span><br><span class="line">        D[i].length = INFINITY;   <span class="comment">// 初始化最短路径长度为无穷大</span></span><br><span class="line">        D[i].index = i;           <span class="comment">// 设置顶点索引</span></span><br><span class="line">        D[i].pre = <span class="number">-1</span>;            <span class="comment">// 路径的前驱初始化为 -1</span></span><br><span class="line">    &#125;</span><br><span class="line">    D[s].length = <span class="number">0</span>;              <span class="comment">// 源点为s，路径长度设为0</span></span><br><span class="line">    <span class="function">MinHeap&lt;Dist&gt; <span class="title">H</span><span class="params">(G.EdgesNum())</span></span>; <span class="comment">// 声明一个最小值堆</span></span><br><span class="line">    H.<span class="built_in">Insert</span>(D[s]);                <span class="comment">// 将源点初始化进堆</span></span><br><span class="line"></span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">0</span>; i &lt; G.<span class="built_in">VerticesNum</span>(); i++) &#123;</span><br><span class="line">        <span class="type">bool</span> FOUND = <span class="literal">false</span>;</span><br><span class="line">        Dist d;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">while</span> (!H.<span class="built_in">empty</span>()) &#123;       <span class="comment">// 找下一最短路径的顶点</span></span><br><span class="line">            d = H.<span class="built_in">RemoveMin</span>();     <span class="comment">// 从堆中取出最小值</span></span><br><span class="line">            <span class="keyword">if</span> (G.Mark[d.index] == UNVISITED) &#123; <span class="comment">// 如果是未访问的点</span></span><br><span class="line">                FOUND = <span class="literal">true</span>; </span><br><span class="line">                <span class="keyword">break</span>;             <span class="comment">// 该点加入已访问组</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!FOUND) <span class="keyword">break</span>;         <span class="comment">// 如果没有找到，退出</span></span><br><span class="line"></span><br><span class="line">        <span class="type">int</span> v = d.index; </span><br><span class="line">        G.Mark[v] = VISITED;       <span class="comment">// 标记顶点v为已访问</span></span><br><span class="line">        <span class="built_in">Visit</span>(v);                  <span class="comment">// 打印输出（可选操作）</span></span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (Edge e = G.<span class="built_in">FirstEdge</span>(v); G.<span class="built_in">IsEdge</span>(e); e = G.<span class="built_in">NextEdge</span>(e)) &#123; </span><br><span class="line">            <span class="comment">// 遍历v的所有邻接边</span></span><br><span class="line">            <span class="keyword">if</span> (D[G.<span class="built_in">ToVertex</span>(e)].length &gt; D[v].length + G.<span class="built_in">Weight</span>(e)) &#123; </span><br><span class="line">                <span class="comment">// 如果发现更短路径，更新权值</span></span><br><span class="line">                D[G.<span class="built_in">ToVertex</span>(e)].length = D[v].length + G.<span class="built_in">Weight</span>(e);</span><br><span class="line">                D[G.<span class="built_in">ToVertex</span>(e)].pre = v;    <span class="comment">// 更新路径的前驱</span></span><br><span class="line">                H.<span class="built_in">Insert</span>(D[G.<span class="built_in">ToVertex</span>(e)]); <span class="comment">// 将更新后的节点重新加入堆</span></span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231141335181.png" class="" title="image-20241231141335181">
+
+<h3 id="多源最短路径（Floyd算法）"><a href="#多源最短路径（Floyd算法）" class="headerlink" title="多源最短路径（Floyd算法）"></a>多源最短路径（<code>Floyd</code>算法）</h3><ul>
+<li>方法一：反复执行Dijkstra算法，时间复杂度为$O(n^3)$</li>
+<li>方法二：Floyd算法，时间复杂度为$O(n^3)$</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231141448284.png" class="" title="image-20241231141448284">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231141616703.png" class="" title="image-20241231141616703">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231141628332.png" class="" title="image-20241231141628332">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231141723198.png" class="" title="image-20241231141723198">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231141951874.png" class="" title="image-20241231141951874">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231142303889.png" class="" title="image-20241231142303889">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231142309288.png" class="" title="image-20241231142309288">
+
+<h2 id="最小生成（支撑）树"><a href="#最小生成（支撑）树" class="headerlink" title="最小生成（支撑）树"></a>最小生成（支撑）树</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231142640809.png" class="" title="image-20241231142640809">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231142740811.png" class="" title="image-20241231142740811">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231142801297.png" class="" title="image-20241231142801297">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231143012047.png" class="" title="image-20241231143012047">
+
+<h3 id="Kruskal算法"><a href="#Kruskal算法" class="headerlink" title="Kruskal算法"></a>Kruskal算法</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231143430371.png" class="" title="image-20241231143430371">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231143452609.png" class="" title="image-20241231143452609">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20241231143500967.png" class="" title="image-20241231143500967">
+
+<ul>
+<li>算法代价：$O(E\log E)$，即堆排序的时间复杂度</li>
+</ul>
+<h1 id="内排序"><a href="#内排序" class="headerlink" title="内排序"></a>内排序</h1><h2 id="插入排序"><a href="#插入排序" class="headerlink" title="插入排序"></a>插入排序</h2><h3 id="直接插入排序"><a href="#直接插入排序" class="headerlink" title="直接插入排序"></a>直接插入排序</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">stringInsertSort</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="type">int</span> i=<span class="number">1</span>;i&lt;n;i++)&#123;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> j=i;j&gt;<span class="number">0</span>;j--)&#123;</span><br><span class="line">            <span class="keyword">if</span>(Array[j]&lt;Array[j<span class="number">-1</span>])&#123;</span><br><span class="line">                <span class="built_in">swap</span>(Array[j],Array[j<span class="number">-1</span>]);</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="keyword">else</span>&#123;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>稳定</p>
+<p>时间复杂度：$O(n^2)$</p>
+<p>空间复杂度：$O(1)$</p>
+<h3 id="优化的插入排序算法"><a href="#优化的插入排序算法" class="headerlink" title="优化的插入排序算法"></a>优化的插入排序算法</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">ImprovedInsertSort</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="type">int</span> temp = A[i];</span><br><span class="line">        <span class="type">int</span> j = i - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span> (j &gt;= <span class="number">0</span> &amp;&amp; A[j] &gt; temp) &#123;</span><br><span class="line">            A[j + <span class="number">1</span>] = A[j];</span><br><span class="line">            j--;</span><br><span class="line">        &#125;</span><br><span class="line">        A[j + <span class="number">1</span>] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="基于二分查找的插入排序"><a href="#基于二分查找的插入排序" class="headerlink" title="基于二分查找的插入排序"></a>基于二分查找的插入排序</h3><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">BinaryInsertSort</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = <span class="number">1</span>; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="type">int</span> temp = A[i];</span><br><span class="line">        <span class="type">int</span> low = <span class="number">0</span>, high = i - <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">while</span> (low &lt;= high) &#123;</span><br><span class="line">            <span class="type">int</span> mid = (low + high) / <span class="number">2</span>;</span><br><span class="line">            <span class="keyword">if</span> (A[mid] &gt; temp) high = mid - <span class="number">1</span>;</span><br><span class="line">            <span class="keyword">else</span> low = mid + <span class="number">1</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="type">int</span> j = i - <span class="number">1</span>; j &gt;= low ; j--) &#123;</span><br><span class="line">            A[j + <span class="number">1</span>] = A[j];</span><br><span class="line">        &#125;</span><br><span class="line">        A[low] = temp;<span class="comment">//插入left</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<ul>
+<li>最佳情况下代价为	$O(n\log n)$</li>
+<li>平均情况下代价为	$O(n^2)$</li>
+</ul>
+<h2 id="冒泡排序"><a href="#冒泡排序" class="headerlink" title="冒泡排序"></a>冒泡排序</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101230950119.png" class="" title="image-20250101230950119">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101231014248.png" class="" title="image-20250101231014248">
+
+<h2 id="直接选择排序"><a href="#直接选择排序" class="headerlink" title="直接选择排序"></a>直接选择排序</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101231201103.png" class="" title="image-20250101231201103">
+
+<p><strong>&#x3D;&#x3D;不稳定&#x3D;&#x3D;</strong></p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101231311879.png" class="" title="image-20250101231311879">
+
+<h2 id="shell排序"><a href="#shell排序" class="headerlink" title="&#x3D;&#x3D;shell排序&#x3D;&#x3D;"></a>&#x3D;&#x3D;shell排序&#x3D;&#x3D;</h2><p>直接插入排序的2个性质</p>
+<ul>
+<li>当n较小时，直接插入排序较快</li>
+<li>当序列基本有序时，直接插入排序较快</li>
+</ul>
+<p>思想：</p>
+<ul>
+<li>先将整个待排序的记录序列分割成若干子序列分别进行直接插入排序</li>
+<li>逐渐扩大子序列的长度，直到整个序列被分为一个子序列</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101231659821.png" class="" title="image-20250101231659821">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101231712563.png" class="" title="image-20250101231712563">
+
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">shellsort</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> gap = n / <span class="number">2</span>; gap &gt; <span class="number">0</span>; gap /= <span class="number">2</span>) &#123;</span><br><span class="line">     	<span class="keyword">for</span>(<span class="type">int</span> j=<span class="number">0</span>;j&lt;gap;j++)&#123;</span><br><span class="line">            <span class="built_in">ModifiedInsertSort</span>(A, n-j, gap);</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">void</span> <span class="title">ModifiedInsertSort</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> n, <span class="type">int</span> gap)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">for</span> (<span class="type">int</span> i = gap; i &lt; n; i++) &#123;</span><br><span class="line">        <span class="type">int</span> temp = A[i];</span><br><span class="line">        <span class="type">int</span> j = i - gap;</span><br><span class="line">        <span class="keyword">while</span> (j &gt;= <span class="number">0</span> &amp;&amp; A[j] &gt; temp) &#123;</span><br><span class="line">            A[j + gap] = A[j];</span><br><span class="line">            j -= gap;</span><br><span class="line">        &#125;</span><br><span class="line">        A[j + gap] = temp;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="快速排序"><a href="#快速排序" class="headerlink" title="&#x3D;&#x3D;快速排序&#x3D;&#x3D;"></a>&#x3D;&#x3D;快速排序&#x3D;&#x3D;</h2><ul>
+<li>轴值选择：从待排序列中任选一个元素k作为轴值</li>
+<li>序列划分：划分为子序列L和R，使得L中的元素都小于k，R中的元素都大于k</li>
+<li>递归排序：对L和R分别进行快速排序</li>
+</ul>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="type">void</span> <span class="title">Quicksort</span><span class="params">(<span class="type">int</span> A[], <span class="type">int</span> low, <span class="type">int</span> high)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (low &lt; high) &#123;</span><br><span class="line">        <span class="type">int</span> pivot=<span class="built_in">SelectPivot</span>(left,right);</span><br><span class="line">        <span class="type">int</span> pivot = <span class="built_in">Partition</span>(A, low, high);</span><br><span class="line">        <span class="built_in">Quicksort</span>(A, low, pivot - <span class="number">1</span>);</span><br><span class="line">        <span class="built_in">Quicksort</span>(A, pivot + <span class="number">1</span>, high);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="type">int</span> <span class="title">Partition</span><span class="params">(<span class="type">int</span> Array[], <span class="type">int</span> left, <span class="type">int</span> right)</span> </span>&#123;</span><br><span class="line">    <span class="type">int</span> i=left,j=right;</span><br><span class="line">    <span class="type">int</span> pivotValue=Array[left];		<span class="comment">//将轴值放在临时变量中</span></span><br><span class="line">    <span class="keyword">while</span>(i!=j)&#123;</span><br><span class="line">        <span class="keyword">while</span>((Array[j]&gt;pivotValue)&amp;&amp;(i&lt;j))j--; <span class="comment">//左移</span></span><br><span class="line">        <span class="keyword">if</span>(i&lt;j)&#123;Array[i]=Array[j];i++;&#125;					<span class="comment">//交换</span></span><br><span class="line">        <span class="keyword">while</span>((Array[i]&lt;=pivotValue)&amp;&amp;(i&lt;j))i++;</span><br><span class="line">        <span class="keyword">if</span>(i&lt;j)&#123;Array[j]=Array[i];j--;&#125;</span><br><span class="line">    &#125;</span><br><span class="line">    Array[i]=pivotValue; <span class="comment">//轴值归位</span></span><br><span class="line">    <span class="keyword">return</span> i;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>算法分析</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101233826197.png" class="" title="image-20250101233826197">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101233842808.png" class="" title="image-20250101233842808">
+
+<p>平均性能推导：<br>$$<br>T(n)&#x3D;O(nlogn)  						\<br>T(n)&#x3D;\frac{1}{n}\sum_{i&#x3D;0}^{n-1}(T(i)+T(n-i-1))+cn\<br>nT(n)&#x3D;2\sum_{i&#x3D;0}^{n-1}T(i)+cn^2  \<br>nT(n)-(n-1)T(n-1)&#x3D;2T(n-1)+2cn-c	\<br>nT(n)&#x3D;(n+1)T(n-1)+2cn  \<br>\frac{T(n)}{n+1}&#x3D;\frac{T(n-1)}{n}+\frac{2c}{n+1}<br>$$</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101234555022.png" class="" title="image-20250101234555022">
+
+<h2 id="归并排序"><a href="#归并排序" class="headerlink" title="归并排序"></a>归并排序</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101234630627.png" class="" title="image-20250101234630627">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101234638677.png" class="" title="image-20250101234638677">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101234659284.png" class="" title="image-20250101234659284">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101234708621.png" class="" title="image-20250101234708621">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250101235627490.png" class="" title="image-20250101235627490">
+
+<h2 id="堆排序"><a href="#堆排序" class="headerlink" title="堆排序"></a>堆排序</h2><p>略</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103131802931.png" class="" title="image-20250103131802931">
+
+<h2 id="桶排序"><a href="#桶排序" class="headerlink" title="桶排序"></a>桶排序</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103131911185.png" class="" title="image-20250103131911185">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132026988.png" class="" title="image-20250103132026988">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132040701.png" class="" title="image-20250103132040701">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132120302.png" class="" title="image-20250103132120302">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132326695.png" class="" title="image-20250103132326695">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132333684.png" class="" title="image-20250103132333684">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132412146.png" class="" title="image-20250103132412146">
+
+<ul>
+<li>只适用于m较小的情况</li>
+</ul>
+<p>​	</p>
+<h2 id="基数排序"><a href="#基数排序" class="headerlink" title="&#x3D;&#x3D;基数排序&#x3D;&#x3D;"></a>&#x3D;&#x3D;基数排序&#x3D;&#x3D;</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132532868.png" class="" title="image-20250103132532868">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132709497.png" class="" title="image-20250103132709497">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132807361.png" class="" title="image-20250103132807361">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103132905138.png" class="" title="image-20250103132905138">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133016970.png" class="" title="image-20250103133016970">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133038300.png" class="" title="image-20250103133038300">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133119943.png" class="" title="image-20250103133119943">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133142932.png" class="" title="image-20250103133142932">
+
+<h3 id="如何实现"><a href="#如何实现" class="headerlink" title="如何实现"></a>如何实现</h3><ul>
+<li>数组R长度n</li>
+<li>基数r</li>
+<li>排序码位数：d</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133301483.png" class="" title="image-20250103133301483">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133308318.png" class="" title="image-20250103133308318">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133523811.png" class="" title="image-20250103133523811">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133714080.png" class="" title="image-20250103133714080">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103133725862.png" class="" title="image-20250103133725862">
+
+<h3 id="算法分析"><a href="#算法分析" class="headerlink" title="算法分析"></a>算法分析</h3><ul>
+<li>临时数组,n</li>
+<li>r个计数器</li>
+<li>空间代价$O((n+r))$</li>
+<li>d次桶排序，每次代价$O(n+r)$</li>
+<li>时间代价$O(d(n+r))$</li>
+</ul>
+<h1 id="重点"><a href="#重点" class="headerlink" title="&#x3D;&#x3D;重点&#x3D;&#x3D;"></a>&#x3D;&#x3D;重点&#x3D;&#x3D;</h1><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103134249997.png" class="" title="image-20250103134249997">
+
+<h1 id="外排序"><a href="#外排序" class="headerlink" title="外排序"></a>外排序</h1><ul>
+<li>文件流是以外存文件为输入输出对象的数据流</li>
+<li>文件流与文件不是同一个概念，文件流不是由若干个文件组成的流</li>
+<li>文件流本身不是文件，而只是以文件为输入输出对象的流</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103134940563.png" class="" title="image-20250103134940563">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103135220944.png" class="" title="image-20250103135220944">
+
+<h2 id="外排序的时间组成"><a href="#外排序的时间组成" class="headerlink" title="外排序的时间组成"></a>外排序的时间组成</h2><ul>
+<li>产生初始顺串的内排序所需时间</li>
+<li>初始化顺串和归并过程所需的读写(I&#x2F;O)时间</li>
+<li>内部归并所需要的时间</li>
+</ul>
+<p>&#x3D;&#x3D;减少外存信息的读写次数是提高外部排序效率的关键&#x3D;&#x3D;</p>
+<h2 id="置换选择排序"><a href="#置换选择排序" class="headerlink" title="置换选择排序"></a>置换选择排序</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103135625148.png" class="" title="image-20250103135625148">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103135655587.png" class="" title="image-20250103135655587">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103141552002.png" class="" title="image-20250103141552002">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103143453523.png" class="" title="image-20250103143453523">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103143610546.png" class="" title="image-20250103143610546">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103143617903.png" class="" title="image-20250103143617903">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103143627896.png" class="" title="image-20250103143627896">
+
+<h2 id="归并排序-1"><a href="#归并排序-1" class="headerlink" title="归并排序"></a>归并排序</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103143725087.png" class="" title="image-20250103143725087">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103143834827.png" class="" title="image-20250103143834827">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103143919267.png" class="" title="image-20250103143919267">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103144108242.png" class="" title="image-20250103144108242">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103144145761.png" class="" title="image-20250103144145761">
+
+<h2 id="多路归并树"><a href="#多路归并树" class="headerlink" title="多路归并树"></a>多路归并树</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103144301710.png" class="" title="image-20250103144301710">
+
+<p><strong>如何减小k路比较时的比较次数</strong></p>
+<ul>
+<li>选择树<ul>
+<li>赢者树</li>
+<li>败者树</li>
+</ul>
+</li>
+</ul>
+<h3 id="赢者树"><a href="#赢者树" class="headerlink" title="赢者树"></a>赢者树</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103144540754.png" class="" title="image-20250103144540754">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103144619403.png" class="" title="image-20250103144619403">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103144706672.png" class="" title="image-20250103144706672">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103144831910.png" class="" title="image-20250103144831910">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103145417872.png" class="" title="image-20250103145417872">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103145428791.png" class="" title="image-20250103145428791">
+
+<h3 id="败者树"><a href="#败者树" class="headerlink" title="败者树"></a>败者树</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103145645251.png" class="" title="image-20250103145645251">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103145704941.png" class="" title="image-20250103145704941">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103145719927.png" class="" title="image-20250103145719927">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150010977.png" class="" title="image-20250103150010977">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150131651.png" class="" title="image-20250103150131651">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150148272.png" class="" title="image-20250103150148272">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150157739.png" class="" title="image-20250103150157739">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150430450.png" class="" title="image-20250103150430450">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150448037.png" class="" title="image-20250103150448037">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150459327.png" class="" title="image-20250103150459327">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150514917.png" class="" title="image-20250103150514917">
+
+<h3 id="多路归并的效率"><a href="#多路归并的效率" class="headerlink" title="多路归并的效率"></a>多路归并的效率</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150604353.png" class="" title="image-20250103150604353">
+
+<h1 id="检索"><a href="#检索" class="headerlink" title="检索"></a>检索</h1><p>平均检索长度<br>$$<br>ASL&#x3D;\sum_{i&#x3D;1}^nP_iC_i(P_i为检索第i个元素的概率，C_i为找到第i个元素所需的比较次数)<br>$$</p>
+<h2 id="顺序检索"><a href="#顺序检索" class="headerlink" title="顺序检索"></a>顺序检索</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103150921435.png" class="" title="image-20250103150921435">
+
+<h2 id="二分检索"><a href="#二分检索" class="headerlink" title="&#x3D;&#x3D;二分检索&#x3D;&#x3D;"></a>&#x3D;&#x3D;二分检索&#x3D;&#x3D;</h2><p>&#x3D;&#x3D;前提条件&#x3D;&#x3D;：待检索序列有序</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103151052383.png" class="" title="image-20250103151052383">
+
+<h2 id="散列表的检索"><a href="#散列表的检索" class="headerlink" title="散列表的检索"></a>散列表的检索</h2><h3 id="重要概念"><a href="#重要概念" class="headerlink" title="重要概念"></a>重要概念</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103152349607.png" class="" title="image-20250103152349607">
+
+<h3 id="散列函数"><a href="#散列函数" class="headerlink" title="散列函数"></a>散列函数</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103152509599.png" class="" title="image-20250103152509599">
+
+<h3 id="除余法"><a href="#除余法" class="headerlink" title="除余法"></a>除余法</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103152606989.png" class="" title="image-20250103152606989">
+
+<p>&#x3D;&#x3D;注意&#x3D;&#x3D;：M不能取偶数</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103152644019.png" class="" title="image-20250103152644019">
+
+<h3 id="平方取中法"><a href="#平方取中法" class="headerlink" title="平方取中法"></a>平方取中法</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103152826718.png" class="" title="image-20250103152826718">
+
+<h3 id="折叠法"><a href="#折叠法" class="headerlink" title="折叠法"></a>折叠法</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103152911040.png" class="" title="image-20250103152911040">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103152922395.png" class="" title="image-20250103152922395">
+
+<h2 id="冲突解决"><a href="#冲突解决" class="headerlink" title="冲突解决"></a>冲突解决</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153135949.png" class="" title="image-20250103153135949">
+
+<h3 id="开散列方法"><a href="#开散列方法" class="headerlink" title="开散列方法"></a>开散列方法</h3><h4 id="拉链法"><a href="#拉链法" class="headerlink" title="拉链法"></a>拉链法</h4><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153206153.png" class="" title="image-20250103153206153">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153551440.png" class="" title="image-20250103153551440">
+
+<h4 id="桶式散列"><a href="#桶式散列" class="headerlink" title="桶式散列"></a>桶式散列</h4><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153644373.png" class="" title="image-20250103153644373">
+
+<h2 id="闭散列方法"><a href="#闭散列方法" class="headerlink" title="闭散列方法"></a>闭散列方法</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153735125.png" class="" title="image-20250103153735125">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153806097.png" class="" title="image-20250103153806097">
+
+<h3 id="线性探测"><a href="#线性探测" class="headerlink" title="线性探测"></a>线性探测</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153905726.png" class="" title="image-20250103153905726">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153848031.png" class="" title="image-20250103153848031">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153941199.png" class="">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103153949706.png" class="" title="image-20250103153949706">
+
+<h3 id="改进线性探查"><a href="#改进线性探查" class="headerlink" title="改进线性探查"></a>改进线性探查</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103154459662.png" class="" title="image-20250103154459662">
+
+<h3 id="二次探查"><a href="#二次探查" class="headerlink" title="二次探查"></a>二次探查</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103154549872.png" class="" title="image-20250103154549872">
+
+<h3 id="二级聚集"><a href="#二级聚集" class="headerlink" title="二级聚集"></a>二级聚集</h3><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103154725240.png" class="" title="image-20250103154725240">
+
+<h3 id="双散列探查法"><a href="#双散列探查法" class="headerlink" title="双散列探查法"></a>双散列探查法</h3><p>避免二级聚集</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103154806188.png" class="" title="image-20250103154806188">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103154816128.png" class="" title="image-20250103154816128">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103154929918.png" class="" title="image-20250103154929918">
+
+<h2 id="散列表的插入"><a href="#散列表的插入" class="headerlink" title="散列表的插入"></a>散列表的插入</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155001154.png" class="" title="image-20250103155001154">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155012883.png" class="" title="image-20250103155012883">
+
+<h2 id="散列表的检索-1"><a href="#散列表的检索-1" class="headerlink" title="散列表的检索"></a>散列表的检索</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155047129.png" class="" title="image-20250103155047129">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155058828.png" class="" title="image-20250103155058828">
+
+<h2 id="散列表的删除"><a href="#散列表的删除" class="headerlink" title="散列表的删除"></a>散列表的删除</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155117011.png" class="" title="image-20250103155117011">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155229696.png" class="" title="image-20250103155229696">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155316435.png" class="" title="image-20250103155316435">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155336486.png" class="" title="image-20250103155336486">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155355228.png" class="" title="image-20250103155355228">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155512635.png" class="" title="image-20250103155512635"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155522471.png" class="" title="image-20250103155522471">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155540978.png" class="" title="image-20250103155540978">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155555989.png" class="" title="image-20250103155555989">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103155620067.png" class="" title="image-20250103155620067">
+
+<h1 id="索引"><a href="#索引" class="headerlink" title="索引"></a>索引</h1><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103180613827.png" class="" title="image-20250103180613827">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103180621045.png" class="" title="image-20250103180621045">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103180641307.png" class="" title="image-20250103180641307">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103180700288.png" class="" title="image-20250103180700288">
+
+<ul>
+<li>稀疏索引</li>
+<li>稠密索引</li>
+</ul>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103180740268.png" class="" title="image-20250103180740268">
+
+<h2 id="线性索引"><a href="#线性索引" class="headerlink" title="线性索引"></a>线性索引</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103180904458.png" class="" title="image-20250103180904458">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103181122903.png" class="" title="image-20250103181122903">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103181144200.png" class="" title="image-20250103181144200">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103181458311.png" class="" title="image-20250103181458311">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103181549098.png" class="" title="image-20250103181549098">
+
+<h2 id="静态索引"><a href="#静态索引" class="headerlink" title="静态索引"></a>静态索引</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103181843270.png" class="" title="image-20250103181843270">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182039859.png" class="" title="image-20250103182039859">
+
+<h2 id="倒排索引"><a href="#倒排索引" class="headerlink" title="倒排索引"></a>倒排索引</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182107769.png" class="" title="image-20250103182107769">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182339985.png" class="" title="image-20250103182339985">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182435364.png" class="" title="image-20250103182435364"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182448664.png" class="" title="image-20250103182448664">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182506304.png" class="" title="image-20250103182506304">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182611174.png" class="" title="image-20250103182611174">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182737897.png" class="" title="image-20250103182737897">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182754520.png" class="" title="image-20250103182754520"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103182804139.png" class="" title="image-20250103182804139"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103184104995.png" class="" title="image-20250103184104995">
+
+<h2 id="B树"><a href="#B树" class="headerlink" title="B树"></a>B树</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103184448215.png" class="" title="image-20250103184448215">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103184702047.png" class="" title="image-20250103184702047">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103184711050.png" class="" title="image-20250103184711050"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103184726692.png" class="" title="image-20250103184726692">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103184742234.png" class="" title="image-20250103184742234">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103185108205.png" class="" title="image-20250103185108205">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103185143302.png" class="" title="image-20250103185143302">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103185154965.png" class="" title="image-20250103185154965">
+
+<p>插入看ppt</p>
+<h2 id="效率分析"><a href="#效率分析" class="headerlink" title="效率分析"></a>效率分析</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103190443839.png" class="" title="image-20250103190443839">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103190512721.png" class="" title="image-20250103190512721">
+
+<h2 id="红黑树"><a href="#红黑树" class="headerlink" title="红黑树"></a>红黑树</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103190617371.png" class="" title="image-20250103190617371">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191012862.png" class="" title="image-20250103191012862">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191051269.png" class="" title="image-20250103191051269">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191257594.png" class="" title="image-20250103191257594">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191458100.png" class="" title="image-20250103191458100">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191536574.png" class="" title="image-20250103191536574">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191620466.png" class="" title="image-20250103191620466">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191732502.png" class="" title="image-20250103191732502">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191745142.png" class="" title="image-20250103191745142">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103191816019.png" class="" title="image-20250103191816019">
+
+<h1 id="高级数据结构"><a href="#高级数据结构" class="headerlink" title="高级数据结构"></a>高级数据结构</h1><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103192346000.png" class="" title="image-20250103192346000">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103192416909.png" class="" title="image-20250103192416909">
+
+<h2 id="特殊矩阵"><a href="#特殊矩阵" class="headerlink" title="特殊矩阵"></a>特殊矩阵</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103192551316.png" class="" title="image-20250103192551316">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103192601841.png" class="" title="image-20250103192601841">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103192725677.png" class="" title="image-20250103192725677">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103192740084.png" class="" title="image-20250103192740084">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195101015.png" class="" title="image-20250103195101015">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195142055.png" class="" title="image-20250103195142055">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195221031.png" class="" title="image-20250103195221031">
+
+<h2 id="广义表"><a href="#广义表" class="headerlink" title="广义表"></a>广义表</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195412511.png" class="" title="image-20250103195412511">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195424360.png" class="" title="image-20250103195424360">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195436464.png" class="" title="image-20250103195436464">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195526548.png" class="" title="image-20250103195526548">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195536246.png" class="" title="image-20250103195536246">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103195848230.png" class="" title="image-20250103195848230">
+
+<h2 id="最佳BST树"><a href="#最佳BST树" class="headerlink" title="最佳BST树"></a>最佳BST树</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103200414287.png" class="" title="image-20250103200414287">
+<p>$$<br>卡特兰数\frac{1}{n+1}C_{2n}^{n}<br>$$</p>
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103200512339.png" class="" title="image-20250103200512339">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103200824815.png" class="" title="image-20250103200824815">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103200854406.png" class="" title="image-20250103200854406">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103200915471.png" class="" title="image-20250103200915471">
+
+<h2 id="AVL"><a href="#AVL" class="headerlink" title="&#x3D;&#x3D;AVL&#x3D;&#x3D;"></a>&#x3D;&#x3D;AVL&#x3D;&#x3D;</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201217950.png" class="" title="image-20250103201217950">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201244362.png" class="" title="image-20250103201244362">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201309499.png" class="" title="image-20250103201309499">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201321120.png" class="" title="image-20250103201321120">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201342111.png" class="" title="image-20250103201342111">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201416724.png" class="" title="image-20250103201416724">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201442291.png" class="" title="image-20250103201442291">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201455152.png" class="" title="image-20250103201455152">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201506425.png" class="" title="image-20250103201506425">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201537491.png" class="" title="image-20250103201537491">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103201548236.png" class="" title="image-20250103201548236">
+
+<h2 id="伸展树"><a href="#伸展树" class="headerlink" title="伸展树"></a>伸展树</h2><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202157201.png" class="" title="image-20250103202157201">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202342222.png" class="" title="image-20250103202342222">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202356642.png" class="" title="image-20250103202356642">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202435942.png" class="" title="image-20250103202435942">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202444773.png" class="" title="image-20250103202444773">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202454037.png" class="" title="image-20250103202454037">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202502644.png" class="" title="image-20250103202502644">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202551248.png" class="" title="image-20250103202551248">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202743902.png" class="" title="image-20250103202743902">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103202934322.png" class="" title="image-20250103202934322">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103203243983.png" class="" title="image-20250103203243983">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103203348178.png" class="" title="image-20250103203348178">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103203421506.png" class="" title="image-20250103203421506">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103203505059.png" class="" title="image-20250103203505059">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103203539418.png" class="" title="image-20250103203539418">
+
+<img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/posts/ef66d2a/image-20250103203858121.png" class="" title="image-20250103203858121">
+</article><div class="post-copyright"><div class="copyright-cc-box"><i class="anzhiyufont anzhiyu-icon-copyright"></i></div><div class="post-copyright__author_box"><a class="post-copyright__author_img" href="/" title="头像"><img class="post-copyright__author_img_back" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.picui.cn/free/2024/09/20/66ed0356406a4.jpg# 头像图片地址，更换头像为光遇" title="头像" alt="头像"><img class="post-copyright__author_img_front" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.picui.cn/free/2024/09/20/66ed0356406a4.jpg# 头像图片地址，更换头像为光遇" title="头像" alt="头像"></a><div class="post-copyright__author_name">C+V</div><div class="post-copyright__author_desc">万物可爱，你也不例外</div></div><div class="post-copyright__post__info"><a class="post-copyright__original" title="该文章为原创文章，注意版权协议" href="https://pku-cs-cjw.top/posts/ef66d2a/">原创</a><a class="post-copyright-title"><span onclick="rm.copyPageUrl('https://pku-cs-cjw.top/posts/ef66d2a/')">数算期末复习</span></a></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div class="rewardLeftButton"><div class="post-reward" onclick="anzhiyu.addRewardMask()"><div class="reward-button button--animated" title="赞赏作者"><i class="anzhiyufont anzhiyu-icon-hand-heart-fill"></i>打赏作者</div><div class="reward-main"><div class="reward-all"><span class="reward-title">感谢你赐予我前进的力量</span><ul class="reward-group"><li class="reward-item"><a href="https://img.picui.cn/free/2024/09/20/66ed05b62f204.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.picui.cn/free/2024/09/20/66ed05b62f204.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="https://img.picui.cn/free/2024/09/20/66ed05b62dcea.png" target="_blank"><img class="post-qr-code-img" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.picui.cn/free/2024/09/20/66ed05b62dcea.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul><a class="reward-main-btn" href="/about/#about-reward" target="_blank"><div class="reward-text">赞赏者名单</div><div class="reward-dec">因为你们的支持让我意识到写文章的价值🙏</div></a></div></div></div><div id="quit-box" onclick="anzhiyu.removeRewardMask()" style="display: none"></div></div><div class="shareRight"><div class="share-link mobile"><div class="share-qrcode"><div class="share-button" title="使用手机访问这篇文章"><i class="anzhiyufont anzhiyu-icon-qrcode"></i></div><div class="share-main"><div class="share-main-all"><div id="qrcode" title="https://pku-cs-cjw.top/posts/ef66d2a/"></div><div class="reward-dec">使用手机访问这篇文章</div></div></div></div></div><div class="share-link weibo"><a class="share-button" target="_blank" href="https://service.weibo.com/share/share.php?title=数算期末复习&amp;url=https://pku-cs-cjw.top/posts/ef66d2a/&amp;pic=/img/default_cover.jpg" rel="external nofollow noreferrer noopener"><i class="anzhiyufont anzhiyu-icon-weibo"></i></a></div><script>function copyCurrentPageUrl() {
+  var currentPageUrl = window.location.href;
+  var input = document.createElement("input");
+  input.setAttribute("value", currentPageUrl);
+  document.body.appendChild(input);
+  input.select();
+  input.setSelectionRange(0, 99999);
+  document.execCommand("copy");
+  document.body.removeChild(input);
+}</script><div class="share-link copyurl"><div class="share-button" id="post-share-url" title="复制链接" onclick="copyCurrentPageUrl()"><i class="anzhiyufont anzhiyu-icon-link"></i></div></div></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://pku-cs-cjw.top" target="_blank">C+V</a>！</span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__box"><div class="post-meta__box__tag-list"><a class="post-meta__box__tags" href="/tags/%E7%AC%94%E8%AE%B0/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>笔记<span class="tagsPageCount">6</span></a><a class="post-meta__box__tags" href="/tags/%E6%95%B0%E7%AE%97/"><span class="tags-punctuation"> <i class="anzhiyufont anzhiyu-icon-tag"></i></span>数算<span class="tagsPageCount">1</span></a></div></div></div><div class="post_share"><div class="social-share" data-image="/img/default_cover.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"/><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/sharejs/dist/js/social-share.min.js" defer="defer"></script></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-full"><a href="/posts/cc548c89/"><img class="prev-cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/default_cover.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">内排序</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="anzhiyufont anzhiyu-icon-thumbs-up fa-fw" style="font-size: 1.5rem; margin-right: 4px"></i><span>喜欢这篇文章的人也看了</span></div><div class="relatedPosts-list"><div><a href="/posts/7c8b4f72/" title="ics第一周:信息的表示和处理"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.zhimg.com/v2-07c8ca78fd60aea1d682330839e355ab_720w.jpg?source=172ae18b" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-09-12</div><div class="title">ics第一周:信息的表示和处理</div></div></a></div><div><a href="/posts/ded8437/" title="ics第三周:程序的机器级表示"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.zhimg.com/v2-07c8ca78fd60aea1d682330839e355ab_720w.jpg?source=172ae18b" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-09-23</div><div class="title">ics第三周:程序的机器级表示</div></div></a></div><div><a href="/posts/5cca8783/" title="ics第三周:程序的机器级表示续"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.zhimg.com/v2-07c8ca78fd60aea1d682330839e355ab_720w.jpg?source=172ae18b" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-09-26</div><div class="title">ics第三周:程序的机器级表示续</div></div></a></div><div><a href="/posts/d253f8ca/" title="ics第二周:信息的表示和处理续"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.zhimg.com/v2-07c8ca78fd60aea1d682330839e355ab_720w.jpg?source=172ae18b" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-09-14</div><div class="title">ics第二周:信息的表示和处理续</div></div></a></div><div><a href="/posts/4145f9d2/" title="ics第二周:程序的机器级表示"><img class="cover" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://pic1.zhimg.com/v2-07c8ca78fd60aea1d682330839e355ab_720w.jpg?source=172ae18b" alt="cover"><div class="content is-center"><div class="date"><i class="anzhiyufont anzhiyu-icon-calendar-days fa-fw"></i> 2024-09-20</div><div class="title">ics第二周:程序的机器级表示</div></div></a></div></div></div><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="anzhiyufont anzhiyu-icon-comments"></i><span> 评论</span></div><div class="comment-randomInfo"><a onclick="anzhiyu.addRandomCommentInfo()" href="javascript:void(0)">匿名评论</a><a href="/privacy" style="margin-left: 4px">隐私政策</a></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div><div class="comment-barrage"></div></div><div class="aside-content" id="aside-content"><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="anzhiyufont anzhiyu-icon-bars"></i><span>文章目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%80%9A%E7%9F%A5"><span class="toc-number">1.</span> <span class="toc-text">通知</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9B%BE"><span class="toc-number">2.</span> <span class="toc-text">图</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E8%A1%A8%E7%A4%BA"><span class="toc-number">2.1.</span> <span class="toc-text">图的表示</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A6%82%E5%BF%B5"><span class="toc-number">2.2.</span> <span class="toc-text">概念</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E7%9B%B8%E9%82%BB%E7%9F%A9%E9%98%B5%E8%A1%A8%E7%A4%BA%E6%B3%95"><span class="toc-number">2.3.</span> <span class="toc-text">图的相邻矩阵表示法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E9%82%BB%E6%8E%A5%E8%A1%A8%E8%A1%A8%E7%A4%BA%E6%B3%95"><span class="toc-number">2.4.</span> <span class="toc-text">图的邻接表表示法</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%8D%81%E5%AD%97%E9%93%BE%E8%A1%A8%EF%BC%88%E4%B8%8D%E8%80%83%EF%BC%89"><span class="toc-number">2.5.</span> <span class="toc-text">十字链表（不考）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9B%BE%E7%9A%84%E5%91%A8%E6%B8%B8"><span class="toc-number">2.6.</span> <span class="toc-text">图的周游</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2-DFS"><span class="toc-number">2.6.1.</span> <span class="toc-text">深度优先搜索(DFS)</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%97%B6%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6%E5%88%86%E6%9E%90"><span class="toc-number">2.6.1.1.</span> <span class="toc-text">时间复杂度分析</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2%E6%A0%91"><span class="toc-number">2.6.1.2.</span> <span class="toc-text">深度优先搜索树</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E6%90%9C%E7%B4%A2-BFS"><span class="toc-number">2.6.2.</span> <span class="toc-text">广度优先搜索(BFS)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F%EF%BC%88%E9%87%8D%E7%82%B9%EF%BC%89"><span class="toc-number">2.6.3.</span> <span class="toc-text">拓扑排序（重点）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%8D%E6%9D%82%E5%BA%A6"><span class="toc-number">2.6.4.</span> <span class="toc-text">复杂度</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DFS%E2%80%94%E2%80%94%E6%8B%93%E6%89%91%E6%8E%92%E5%BA%8F"><span class="toc-number">2.6.5.</span> <span class="toc-text">DFS——拓扑排序</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E7%AE%97%E6%B3%95"><span class="toc-number">2.7.</span> <span class="toc-text">最短路径算法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8D%95%E6%BA%90%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%EF%BC%88Dijkstra%E7%AE%97%E6%B3%95%EF%BC%89"><span class="toc-number">2.7.1.</span> <span class="toc-text">单源最短路径（Dijkstra算法）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E6%BA%90%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%EF%BC%88Floyd%E7%AE%97%E6%B3%95%EF%BC%89"><span class="toc-number">2.7.2.</span> <span class="toc-text">多源最短路径（Floyd算法）</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%EF%BC%88%E6%94%AF%E6%92%91%EF%BC%89%E6%A0%91"><span class="toc-number">2.8.</span> <span class="toc-text">最小生成（支撑）树</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Kruskal%E7%AE%97%E6%B3%95"><span class="toc-number">2.8.1.</span> <span class="toc-text">Kruskal算法</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%86%85%E6%8E%92%E5%BA%8F"><span class="toc-number">3.</span> <span class="toc-text">内排序</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="toc-number">3.1.</span> <span class="toc-text">插入排序</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%9B%B4%E6%8E%A5%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="toc-number">3.1.1.</span> <span class="toc-text">直接插入排序</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BC%98%E5%8C%96%E7%9A%84%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F%E7%AE%97%E6%B3%95"><span class="toc-number">3.1.2.</span> <span class="toc-text">优化的插入排序算法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%9F%BA%E4%BA%8E%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE%E7%9A%84%E6%8F%92%E5%85%A5%E6%8E%92%E5%BA%8F"><span class="toc-number">3.1.3.</span> <span class="toc-text">基于二分查找的插入排序</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%92%E6%B3%A1%E6%8E%92%E5%BA%8F"><span class="toc-number">3.2.</span> <span class="toc-text">冒泡排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%9B%B4%E6%8E%A5%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F"><span class="toc-number">3.3.</span> <span class="toc-text">直接选择排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#shell%E6%8E%92%E5%BA%8F"><span class="toc-number">3.4.</span> <span class="toc-text">&#x3D;&#x3D;shell排序&#x3D;&#x3D;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BF%AB%E9%80%9F%E6%8E%92%E5%BA%8F"><span class="toc-number">3.5.</span> <span class="toc-text">&#x3D;&#x3D;快速排序&#x3D;&#x3D;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F"><span class="toc-number">3.6.</span> <span class="toc-text">归并排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A0%86%E6%8E%92%E5%BA%8F"><span class="toc-number">3.7.</span> <span class="toc-text">堆排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%A1%B6%E6%8E%92%E5%BA%8F"><span class="toc-number">3.8.</span> <span class="toc-text">桶排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%9F%BA%E6%95%B0%E6%8E%92%E5%BA%8F"><span class="toc-number">3.9.</span> <span class="toc-text">&#x3D;&#x3D;基数排序&#x3D;&#x3D;</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0"><span class="toc-number">3.9.1.</span> <span class="toc-text">如何实现</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90"><span class="toc-number">3.9.2.</span> <span class="toc-text">算法分析</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%87%8D%E7%82%B9"><span class="toc-number">4.</span> <span class="toc-text">&#x3D;&#x3D;重点&#x3D;&#x3D;</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%A4%96%E6%8E%92%E5%BA%8F"><span class="toc-number">5.</span> <span class="toc-text">外排序</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%96%E6%8E%92%E5%BA%8F%E7%9A%84%E6%97%B6%E9%97%B4%E7%BB%84%E6%88%90"><span class="toc-number">5.1.</span> <span class="toc-text">外排序的时间组成</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BD%AE%E6%8D%A2%E9%80%89%E6%8B%A9%E6%8E%92%E5%BA%8F"><span class="toc-number">5.2.</span> <span class="toc-text">置换选择排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%BD%92%E5%B9%B6%E6%8E%92%E5%BA%8F-1"><span class="toc-number">5.3.</span> <span class="toc-text">归并排序</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6%E6%A0%91"><span class="toc-number">5.4.</span> <span class="toc-text">多路归并树</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B5%A2%E8%80%85%E6%A0%91"><span class="toc-number">5.4.1.</span> <span class="toc-text">赢者树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E8%B4%A5%E8%80%85%E6%A0%91"><span class="toc-number">5.4.2.</span> <span class="toc-text">败者树</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%A4%9A%E8%B7%AF%E5%BD%92%E5%B9%B6%E7%9A%84%E6%95%88%E7%8E%87"><span class="toc-number">5.4.3.</span> <span class="toc-text">多路归并的效率</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A3%80%E7%B4%A2"><span class="toc-number">6.</span> <span class="toc-text">检索</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%A1%BA%E5%BA%8F%E6%A3%80%E7%B4%A2"><span class="toc-number">6.1.</span> <span class="toc-text">顺序检索</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%E5%88%86%E6%A3%80%E7%B4%A2"><span class="toc-number">6.2.</span> <span class="toc-text">&#x3D;&#x3D;二分检索&#x3D;&#x3D;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%A3%E5%88%97%E8%A1%A8%E7%9A%84%E6%A3%80%E7%B4%A2"><span class="toc-number">6.3.</span> <span class="toc-text">散列表的检索</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%87%8D%E8%A6%81%E6%A6%82%E5%BF%B5"><span class="toc-number">6.3.1.</span> <span class="toc-text">重要概念</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%95%A3%E5%88%97%E5%87%BD%E6%95%B0"><span class="toc-number">6.3.2.</span> <span class="toc-text">散列函数</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E9%99%A4%E4%BD%99%E6%B3%95"><span class="toc-number">6.3.3.</span> <span class="toc-text">除余法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%B3%E6%96%B9%E5%8F%96%E4%B8%AD%E6%B3%95"><span class="toc-number">6.3.4.</span> <span class="toc-text">平方取中法</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%8A%98%E5%8F%A0%E6%B3%95"><span class="toc-number">6.3.5.</span> <span class="toc-text">折叠法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%86%B2%E7%AA%81%E8%A7%A3%E5%86%B3"><span class="toc-number">6.4.</span> <span class="toc-text">冲突解决</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%BC%80%E6%95%A3%E5%88%97%E6%96%B9%E6%B3%95"><span class="toc-number">6.4.1.</span> <span class="toc-text">开散列方法</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%8B%89%E9%93%BE%E6%B3%95"><span class="toc-number">6.4.1.1.</span> <span class="toc-text">拉链法</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%A1%B6%E5%BC%8F%E6%95%A3%E5%88%97"><span class="toc-number">6.4.1.2.</span> <span class="toc-text">桶式散列</span></a></li></ol></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%97%AD%E6%95%A3%E5%88%97%E6%96%B9%E6%B3%95"><span class="toc-number">6.5.</span> <span class="toc-text">闭散列方法</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E6%8E%A2%E6%B5%8B"><span class="toc-number">6.5.1.</span> <span class="toc-text">线性探测</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%94%B9%E8%BF%9B%E7%BA%BF%E6%80%A7%E6%8E%A2%E6%9F%A5"><span class="toc-number">6.5.2.</span> <span class="toc-text">改进线性探查</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E6%AC%A1%E6%8E%A2%E6%9F%A5"><span class="toc-number">6.5.3.</span> <span class="toc-text">二次探查</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E7%BA%A7%E8%81%9A%E9%9B%86"><span class="toc-number">6.5.4.</span> <span class="toc-text">二级聚集</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%8F%8C%E6%95%A3%E5%88%97%E6%8E%A2%E6%9F%A5%E6%B3%95"><span class="toc-number">6.5.5.</span> <span class="toc-text">双散列探查法</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%A3%E5%88%97%E8%A1%A8%E7%9A%84%E6%8F%92%E5%85%A5"><span class="toc-number">6.6.</span> <span class="toc-text">散列表的插入</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%A3%E5%88%97%E8%A1%A8%E7%9A%84%E6%A3%80%E7%B4%A2-1"><span class="toc-number">6.7.</span> <span class="toc-text">散列表的检索</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%A3%E5%88%97%E8%A1%A8%E7%9A%84%E5%88%A0%E9%99%A4"><span class="toc-number">6.8.</span> <span class="toc-text">散列表的删除</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%B4%A2%E5%BC%95"><span class="toc-number">7.</span> <span class="toc-text">索引</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%BF%E6%80%A7%E7%B4%A2%E5%BC%95"><span class="toc-number">7.1.</span> <span class="toc-text">线性索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E9%9D%99%E6%80%81%E7%B4%A2%E5%BC%95"><span class="toc-number">7.2.</span> <span class="toc-text">静态索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%80%92%E6%8E%92%E7%B4%A2%E5%BC%95"><span class="toc-number">7.3.</span> <span class="toc-text">倒排索引</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#B%E6%A0%91"><span class="toc-number">7.4.</span> <span class="toc-text">B树</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%95%88%E7%8E%87%E5%88%86%E6%9E%90"><span class="toc-number">7.5.</span> <span class="toc-text">效率分析</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%BA%A2%E9%BB%91%E6%A0%91"><span class="toc-number">7.6.</span> <span class="toc-text">红黑树</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E9%AB%98%E7%BA%A7%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">8.</span> <span class="toc-text">高级数据结构</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E7%9F%A9%E9%98%B5"><span class="toc-number">8.1.</span> <span class="toc-text">特殊矩阵</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B9%BF%E4%B9%89%E8%A1%A8"><span class="toc-number">8.2.</span> <span class="toc-text">广义表</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%9C%80%E4%BD%B3BST%E6%A0%91"><span class="toc-number">8.3.</span> <span class="toc-text">最佳BST树</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#AVL"><span class="toc-number">8.4.</span> <span class="toc-text">&#x3D;&#x3D;AVL&#x3D;&#x3D;</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BC%B8%E5%B1%95%E6%A0%91"><span class="toc-number">8.5.</span> <span class="toc-text">伸展树</span></a></li></ol></li></ol></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div id="workboard"><img class="workSituationImg boardsign" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://img.shields.io/badge/C%2BV-%E4%B8%8A%E8%AF%BE%E6%91%B8%E9%B1%BC%E4%B8%AD-yellow?style=plastic&amp;labelColor=blue&amp;cacheSeconds=100000000" alt="距离月入100k也就还差一个大佬带我~" title="距离月入100k也就还差一个大佬带我~"/><div id="runtimeTextTip"></div></div><div class="footer_custom_text">感谢访问我的博客！</div><p id="ghbdages"><a class="github-badge" target="_blank" href="https://hexo.io/" style="margin-inline:5px" data-title="博客框架为Hexo_v5.4.0" title="博客框架为Hexo_v5.4.0"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Frame-Hexo.svg" alt="博客框架为Hexo_v5.4.0"/></a><a class="github-badge" target="_blank" href="https://blog.anheyu.com/" style="margin-inline:5px" data-title="本站使用AnZhiYu主题" title="本站使用AnZhiYu主题"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.9/img/Theme-AnZhiYu-2E67D3.svg" alt="本站使用AnZhiYu主题"/></a><a class="github-badge" target="_blank" href="https://github.com/" style="margin-inline:5px" data-title="本站项目由Github托管" title="本站项目由Github托管"><img src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg" alt="本站项目由Github托管"/></a></p></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div id="footer-bar-tips"><div class="copyright">&copy;2024 - 2025 By <a class="footer-bar-link" href="/" title="C+V" target="_blank">C+V</a></div></div><div id="footer-type-tips"></div><div class="js-pjax"><script>function subtitleType () {
+  fetch('https://v1.hitokoto.cn')
+    .then(response => response.json())
+    .then(data => {
+      if (true) {
+        const from = '出自 ' + data.from
+        const sub = ["生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期."]
+        sub.unshift(data.hitokoto, from)
+        window.typed = new Typed('#footer-type-tips', {
+          strings: sub,
+          startDelay: 300,
+          typeSpeed: 150,
+          loop: true,
+          backSpeed: 50,
+        })
+      } else {
+        document.getElementById('footer-type-tips').innerHTML = data.hitokoto
+      }
+    })
+}
+
+if (true) {
+  if (typeof Typed === 'function') {
+    subtitleType()
+  } else {
+    getScript('https://cdn.cbd.int/typed.js@2.1.0/dist/typed.umd.js').then(subtitleType)
+  }
+} else {
+  subtitleType()
+}
+</script></div></div><div class="footer-bar-right"><a class="footer-bar-link" target="_blank" rel="noopener" href="https://github.com/anzhiyu-c/hexo-theme-anzhiyu" title="主题">主题</a></div></div></div></footer></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="sidebar-site-data site-data is-center"><a href="/archives/" title="archive"><div class="headline">文章</div><div class="length-num">11</div></a><a href="/tags/" title="tag"><div class="headline">标签</div><div class="length-num">8</div></a><a href="/categories/" title="category"><div class="headline">分类</div><div class="length-num">2</div></a></div><span class="sidebar-menu-item-title">功能</span><div class="sidebar-menu-item"><a class="darkmode_switchbutton menu-child" href="javascript:void(0);" title="显示模式"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span>显示模式</span></a></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">网页</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/187370" title="github"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="/img/favicon.ico" alt="github"/><span class="back-menu-item-text">github</span></a></div></div><div class="back-menu-list-group"><div class="back-menu-list-title">项目</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener" href="https://github.com/YuanQiPKU/Reservoir" title="账目管理"><img class="back-menu-item-icon" src= "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" onerror="this.onerror=null,this.src=&quot;/img/404.jpg&quot;" data-lazy-src="https://image.anheyu.com/favicon.ico" alt="账目管理"/><span class="back-menu-item-text">账目管理</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 文章</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/archives/"><i class="anzhiyufont anzhiyu-icon-box-archive faa-tada" style="font-size: 0.9em;"></i><span> 隧道</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/categories/"><i class="anzhiyufont anzhiyu-icon-shapes faa-tada" style="font-size: 0.9em;"></i><span> 分类</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags faa-tada" style="font-size: 0.9em;"></i><span> 标签</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 友链</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/link/"><i class="anzhiyufont anzhiyu-icon-link faa-tada" style="font-size: 0.9em;"></i><span> 友人帐</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/fcircle/"><i class="anzhiyufont anzhiyu-icon-artstation faa-tada" style="font-size: 0.9em;"></i><span> 朋友圈</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/comments/"><i class="anzhiyufont anzhiyu-icon-envelope faa-tada" style="font-size: 0.9em;"></i><span> 留言板</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 我的</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/music/"><i class="anzhiyufont anzhiyu-icon-music faa-tada" style="font-size: 0.9em;"></i><span> 音乐馆</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/bangumis/"><i class="anzhiyufont anzhiyu-icon-bilibili faa-tada" style="font-size: 0.9em;"></i><span> 追番页</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/album/"><i class="anzhiyufont anzhiyu-icon-images faa-tada" style="font-size: 0.9em;"></i><span> 相册集</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);"><span> 关于</span></a><ul class="menus_item_child"><li><a class="site-page child faa-parent animated-hover" href="/about/"><i class="anzhiyufont anzhiyu-icon-paper-plane faa-tada" style="font-size: 0.9em;"></i><span> 关于本人</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/essay/"><i class="anzhiyufont anzhiyu-icon-lightbulb faa-tada" style="font-size: 0.9em;"></i><span> 闲言碎语</span></a></li><li><a class="site-page child faa-parent animated-hover" href="javascript:toRandomPost()"><i class="anzhiyufont anzhiyu-icon-shoe-prints1 faa-tada" style="font-size: 0.9em;"></i><span> 随便逛逛</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/equipment/"><i class="anzhiyufont anzhiyu-icon-dice-d20 faa-tada" style="font-size: 0.9em;"></i><span> 我的装备</span></a></li><li><a class="site-page child faa-parent animated-hover" href="/%E8%AE%A2%E9%98%85%E6%88%91%E5%90%A7"><span> 订阅我吧</span></a></li></ul></div><div class="menus_item"><a class="site-page faa-parent animated-hover" href="/about-this-wed"><span> 关于此站</span></a></div></div><span class="sidebar-menu-item-title">标签</span><div class="card-tags"><div class="item-headline"></div><div class="card-tag-cloud"><a href="/tags/CSAPP/" style="font-size: 0.88rem; color: rgb(152, 30, 115);">CSAPP<sup>3</sup></a><a href="/tags/ICS/" style="font-size: 0.88rem; color: rgb(89, 186, 91);">ICS<sup>1</sup></a><a href="/tags/ics/" style="font-size: 0.88rem; color: rgb(162, 138, 161);">ics<sup>2</sup></a><a href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95A/" style="font-size: 0.88rem; color: rgb(58, 47, 11);">数据结构与算法A<sup>3</sup></a><a href="/tags/%E6%95%B0%E7%AE%97/" style="font-size: 0.88rem; color: rgb(74, 109, 168);">数算<sup>1</sup></a><a href="/tags/%E6%B0%B4%E6%96%87/" style="font-size: 0.88rem; color: rgb(36, 125, 5);">水文<sup>1</sup></a><a href="/tags/%E7%AC%94%E8%AE%B0/" style="font-size: 0.88rem; color: rgb(71, 24, 121); font-weight: 500; color: var(--anzhiyu-lighttext)">笔记<sup>6</sup></a><a href="/tags/%E9%B8%A1%E6%B1%A4/" style="font-size: 0.88rem; color: rgb(168, 7, 195);">鸡汤<sup>1</sup></a></div></div><hr/></div></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="anzhiyufont anzhiyu-icon-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">繁</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="anzhiyufont anzhiyu-icon-arrows-left-right"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="anzhiyufont anzhiyu-icon-gear"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="anzhiyufont anzhiyu-icon-list-ul"></i></button><button id="chat-btn" type="button" title="聊天"><i class="anzhiyufont anzhiyu-icon-comment-sms"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="anzhiyufont anzhiyu-icon-comments"></i></a><a id="switch-commentBarrage" href="javascript:anzhiyu.switchCommentBarrage();" title="开关弹幕"><i class="anzhiyufont anzhiyu-icon-danmu"></i></a><button id="go-up" type="button" title="回到顶部"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></button></div></div><div id="nav-music"><a id="nav-music-hoverTips" onclick="anzhiyu.musicToggle()" accesskey="m">播放音乐</a><div id="console-music-bg"></div><meting-js id="8152976493" server="netease" type="playlist" mutex="true" preload="none" theme="var(--anzhiyu-main)" data-lrctype="0" order="random" volume="0.7"></meting-js></div><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="anzhiyufont anzhiyu-icon-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="anzhiyufont anzhiyu-icon-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="anzhiyufont anzhiyu-icon-arrow-rotate-right" style="font-size: 1rem;"></i></div><div class="rightMenu-item" id="menu-top"><i class="anzhiyufont anzhiyu-icon-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制选中文本</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="anzhiyufont anzhiyu-icon-paste"></i><span>粘贴文本</span></div><a class="rightMenu-item" id="menu-commenttext"><i class="anzhiyufont anzhiyu-icon-comment-medical"></i><span>引用到评论</span></a><div class="rightMenu-item" id="menu-newwindow"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开</span></div><div class="rightMenu-item" id="menu-copylink"><i class="anzhiyufont anzhiyu-icon-link"></i><span>复制链接地址</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="anzhiyufont anzhiyu-icon-images"></i><span>复制此图片</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="anzhiyufont anzhiyu-icon-download"></i><span>下载此图片</span></div><div class="rightMenu-item" id="menu-newwindowimg"><i class="anzhiyufont anzhiyu-icon-window-restore"></i><span>新窗口打开图片</span></div><div class="rightMenu-item" id="menu-search"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>站内搜索</span></div><div class="rightMenu-item" id="menu-searchBaidu"><i class="anzhiyufont anzhiyu-icon-magnifying-glass"></i><span>百度搜索</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="anzhiyufont anzhiyu-icon-play"></i><span>播放音乐</span></div><div class="rightMenu-item" id="menu-music-back"><i class="anzhiyufont anzhiyu-icon-backward"></i><span>切换到上一首</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="anzhiyufont anzhiyu-icon-forward"></i><span>切换到下一首</span></div><div class="rightMenu-item" id="menu-music-playlist" onclick="window.open(&quot;https://y.qq.com/n/ryqq/playlist/8802438608&quot;, &quot;_blank&quot;);" style="display: none;"><i class="anzhiyufont anzhiyu-icon-radio"></i><span>查看所有歌曲</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制歌名</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item menu-link" id="menu-randomPost"><i class="anzhiyufont anzhiyu-icon-shuffle"></i><span>随便逛逛</span></a><a class="rightMenu-item menu-link" href="/categories/"><i class="anzhiyufont anzhiyu-icon-cube"></i><span>博客分类</span></a><a class="rightMenu-item menu-link" href="/tags/"><i class="anzhiyufont anzhiyu-icon-tags"></i><span>文章标签</span></a></div><div class="rightMenu-group rightMenu-line rightMenuOther"><a class="rightMenu-item" id="menu-copy" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-copy"></i><span>复制地址</span></a><a class="rightMenu-item" id="menu-commentBarrage" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-message"></i><span class="menu-commentBarrage-text">关闭热评</span></a><a class="rightMenu-item" id="menu-darkmode" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-circle-half-stroke"></i><span class="menu-darkmode-text">深色模式</span></a><a class="rightMenu-item" id="menu-translate" href="javascript:void(0);"><i class="anzhiyufont anzhiyu-icon-language"></i><span>轉為繁體</span></a></div></div><div id="rightmenu-mask"></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.umd.js"></script><script src="https://cdn.cbd.int/instant.page@5.2.0/instantpage.js" type="module"></script><script src="https://cdn.cbd.int/vanilla-lazyload@17.8.5/dist/lazyload.iife.min.js"></script><script src="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.cbd.int/pangu@4.0.7/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (true){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><canvas id="universe"></canvas><script async src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/dark/dark.js"></script><script>// 消除控制台打印
+var HoldLog = console.log;
+console.log = function () {};
+let now1 = new Date();
+queueMicrotask(() => {
+  const Log = function () {
+    HoldLog.apply(console, arguments);
+  }; //在恢复前输出日志
+  const grt = new Date("08/25/2024 00:00:00"); //此处修改你的建站时间或者网站上线时间
+  now1.setTime(now1.getTime() + 250);
+  const days = (now1 - grt) / 1000 / 60 / 60 / 24;
+  const dnum = Math.floor(days);
+  const ascll = [
+    `欢迎使用安知鱼!`,
+    `生活明朗, 万物可爱`,
+    `
+        
+       █████╗ ███╗   ██╗███████╗██╗  ██╗██╗██╗   ██╗██╗   ██╗
+      ██╔══██╗████╗  ██║╚══███╔╝██║  ██║██║╚██╗ ██╔╝██║   ██║
+      ███████║██╔██╗ ██║  ███╔╝ ███████║██║ ╚████╔╝ ██║   ██║
+      ██╔══██║██║╚██╗██║ ███╔╝  ██╔══██║██║  ╚██╔╝  ██║   ██║
+      ██║  ██║██║ ╚████║███████╗██║  ██║██║   ██║   ╚██████╔╝
+      ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝  ╚═╝╚═╝   ╚═╝    ╚═════╝
+        
+        `,
+    "已上线",
+    dnum,
+    "天",
+    "©2024 By 安知鱼 V1.6.12",
+  ];
+  const ascll2 = [`NCC2-036`, `调用前置摄像头拍照成功，识别为【小笨蛋】.`, `Photo captured: `, `🤪`];
+
+  setTimeout(
+    Log.bind(
+      console,
+      `\n%c${ascll[0]} %c ${ascll[1]} %c ${ascll[2]} %c${ascll[3]}%c ${ascll[4]}%c ${ascll[5]}\n\n%c ${ascll[6]}\n`,
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      "color:#425AEF",
+      "",
+      "color:#425AEF",
+      ""
+    )
+  );
+  setTimeout(
+    Log.bind(
+      console,
+      `%c ${ascll2[0]} %c ${ascll2[1]} %c \n${ascll2[2]} %c\n${ascll2[3]}\n`,
+      "color:white; background-color:#4fd953",
+      "",
+      "",
+      'background:url("https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/common/tinggge.gif") no-repeat;font-size:450%'
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c WELCOME %c 你好，小笨蛋.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(
+      console,
+      "%c ⚡ Powered by 安知鱼 %c 你正在访问 C+V 的博客.",
+      "color:white; background-color:#f0ad4e",
+      ""
+    )
+  );
+
+  setTimeout(Log.bind(console, "%c W23-12 %c 你已打开控制台.", "color:white; background-color:#4f90d9", ""));
+
+  setTimeout(
+    console.warn.bind(console, "%c S013-782 %c 你现在正处于监控中.", "color:white; background-color:#d9534f", "")
+  );
+});</script><script async src="/anzhiyu/random.js"></script><script async="async">(function () {
+  var grt = new Date("08/25/2024 00:00:00"); //设置网站上线时间
+  var now = new Date();
+  var dnum;
+  var hnum;
+  var mnum;
+  var snum;
+  var nowHour;
+
+  // 计算并更新天数、小时数、分钟数和秒数
+  function updateTime() {
+    now = new Date(); // 更新 now 的值
+    nowHour = now.getHours(); // 更新 nowHour 的值
+    var days = (now - grt) / 1000 / 60 / 60 / 24;
+    dnum = Math.floor(days);
+    var hours = (now - grt) / 1000 / 60 / 60 - 24 * dnum;
+    hnum = Math.floor(hours);
+    if (String(hnum).length == 1) {
+      hnum = "0" + hnum;
+    }
+    var minutes = (now - grt) / 1000 / 60 - 24 * 60 * dnum - 60 * hnum;
+    mnum = Math.floor(minutes);
+    if (String(mnum).length == 1) {
+      mnum = "0" + mnum;
+    }
+    var seconds = (now - grt) / 1000 - 24 * 60 * 60 * dnum - 60 * 60 * hnum - 60 * mnum;
+    snum = Math.round(seconds);
+    if (String(snum).length == 1) {
+      snum = "0" + snum;
+    }
+  }
+
+  // 更新网页中显示的网站运行时间
+  function updateHtml() {
+    const footer = document.getElementById("footer");
+    if (!footer) return
+    let currentTimeHtml = "";
+    if (nowHour < 18 && nowHour >= 9) {
+      // 如果是上班时间，默认就是"安知鱼-上班摸鱼中.svg"图片，不需要更改
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    } else {
+      // 如果是下班时间，插入"安知鱼-下班啦.svg"图片
+      let img = document.querySelector("#workboard .workSituationImg");
+      if (img != null) {
+        img.src = "https://img.shields.io/badge/C%2BV-%E4%B8%8B%E8%AF%BE%E4%B9%9F%E8%A6%81%E6%91%B8%E9%B1%BC-yellow?style=plastic&amp;labelColor=blue&amp;cacheSeconds=100000000";
+        img.title = "下课了就该开开心心的，嘿嘿~";
+        img.alt = "下课了就该开开心心的，嘿嘿~";
+      }
+
+      currentTimeHtml = `本站居然运行了 ${dnum} 天<span id='runtime'> ${hnum} 小时 ${mnum} 分 ${snum} 秒 </span><i class='anzhiyufont anzhiyu-icon-heartbeat' style='color:red'></i>`;
+    }
+
+    if (document.getElementById("runtimeTextTip")) {
+      document.getElementById("runtimeTextTip").innerHTML = currentTimeHtml;
+    }
+  }
+
+  setInterval(() => {
+    updateTime();
+    updateHtml();
+  }, 1000);
+})();</script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ['\\(', '\\)']],
+      tags: 'ams'
+    },
+    chtml: {
+      scale: 1.1
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, '']
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.cbd.int/mathjax@3.2.2/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typesetPromise()
+}</script><script>(() => {
+  const initValine = () => {
+    const valine = new Valine(Object.assign({
+      el: '#vcomment',
+      appId: 'UScCBdqZnuOfbLRqTwMpFe7v-gzGzoHsz',
+      appKey: '7wZOJ9tynvwyBo9vebjOU8MY',
+      avatar: 'identicon',
+      serverURLs: '',
+      emojiMaps: "",
+      path: window.location.pathname,
+      visitor: true
+    }, null))
+  }
+
+  const loadValine = async () => {
+    if (typeof Valine === 'function') initValine()
+    else {
+      await getScript('https://cdn.cbd.int/valine@1.5.1/dist/Valine.min.js')
+      initValine()
+    }
+  }
+
+  if ('Valine' === 'Valine' || !false) {
+    if (false) anzhiyu.loadComment(document.getElementById('vcomment'),loadValine)
+    else setTimeout(loadValine, 0)
+  } else {
+    window.loadOtherComment = loadValine
+  }
+})()</script><input type="hidden" name="page-type" id="page-type" value="post"></div><script src="https://cdn.cbd.int/blueimp-md5@2.19.0/js/md5.min.js"></script><script>window.addEventListener('load', () => {
+  const changeContent = (content) => {
+    if (content === '') return content
+
+    content = content.replace(/<img.*?src="(.*?)"?[^\>]+>/ig, '[图片]') // replace image link
+    content = content.replace(/<a[^>]+?href=["']?([^"']+)["']?[^>]*>([^<]+)<\/a>/gi, '[链接]') // replace url
+    content = content.replace(/<pre><code>.*?<\/pre>/gi, '[代码]') // replace code
+    content = content.replace(/<[^>]+>/g,"") // remove html tag
+
+    if (content.length > 150) {
+      content = content.substring(0,150) + '...'
+    }
+    return content
+  }
+
+  const getIcon = (icon, mail) => {
+    if (icon) return icon
+    let defaultIcon = '?d=identicon'
+    let iconUrl = `https://gravatar.loli.net/avatar/${md5(mail.toLowerCase()) + defaultIcon}`
+    return iconUrl
+  }
+
+  const generateHtml = array => {
+    let result = ''
+
+    if (array.length) {
+      for (let i = 0; i < array.length; i++) {
+        result += '<div class=\'aside-list-item\'>'
+
+        if (true) {
+          const name = 'data-lazy-src'
+          result += `<a href='${array[i].url}' class='thumbnail'><img ${name}='${array[i].avatar}' alt='${array[i].nick}'></a>`
+        }
+
+        result += `<div class='content'>
+        <a class='comment' href='${array[i].url}' title='${array[i].content}'>${array[i].content}</a>
+        <div class='name'><span>${array[i].nick} / </span><time datetime="${array[i].date}">${anzhiyu.diffDate(array[i].date, true)}</time></div>
+        </div></div>`
+      }
+    } else {
+      result += '没有评论'
+    }
+
+    let $dom = document.querySelector('#card-newest-comments .aside-list')
+    $dom && ($dom.innerHTML= result)
+    window.lazyLoadInstance && window.lazyLoadInstance.update()
+    window.pjax && window.pjax.refresh($dom)
+  }
+
+  const getComment = () => {
+    const serverURL = 'https://UScCBdqZ.api.lncldglobal.com'
+
+    var settings = {
+      "method": "GET",
+      "headers": {
+        "X-LC-Id": 'UScCBdqZnuOfbLRqTwMpFe7v-gzGzoHsz',
+        "X-LC-Key": '7wZOJ9tynvwyBo9vebjOU8MY',
+        "Content-Type": "application/json"
+      },
+    }
+
+    fetch(`${serverURL}/1.1/classes/Comment?limit=6&order=-createdAt`,settings)
+      .then(response => response.json())
+      .then(data => {
+        const valineArray = data.results.map(function (e) {
+          return {
+            'avatar': getIcon(e.QQAvatar, e.mail),
+            'content': changeContent(e.comment),
+            'nick': e.nick,
+            'url': e.url + '#' + e.objectId,
+            'date': e.updatedAt,
+          }
+        })
+        saveToLocal.set('valine-newest-comments', JSON.stringify(valineArray), 10/(60*24))
+        generateHtml(valineArray)
+      }).catch(e => {
+        const $dom = document.querySelector('#card-newest-comments .aside-list')
+        $dom.textContent= "无法获取评论，请确认相关配置是否正确"
+      }) 
+  }
+
+  const newestCommentInit = () => {
+    if (document.querySelector('#card-newest-comments .aside-list')) {
+      const data = saveToLocal.get('valine-newest-comments')
+      if (data) {
+        generateHtml(JSON.parse(data))
+      } else {
+        getComment()
+      }
+    }
+  }
+
+  newestCommentInit()
+  document.addEventListener('pjax:complete', newestCommentInit)
+})</script><script async data-pjax src="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.1/bubble/bubble.js"></script><script>var visitorMail = "";
+</script><script async data-pjax src="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/waterfall/waterfall.js"></script><script src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/qrcodejs/1.0.0/qrcode.min.js"></script><script src="/js/anzhiyu/right_click_menu.js"></script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.1.9/icon/ali_iconfont_css.css"><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/fireworks.min.js"></script><script defer="defer" id="ribbon" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/canvas-ribbon.min.js" size="150" alpha="0.6" zIndex="-1" mobile="false" data-click="false"></script><script defer="defer" id="fluttering_ribbon" mobile="false" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/canvas-fluttering-ribbon.min.js"></script><script id="canvas_nest" defer="defer" color="0,0,255" opacity="0.7" zIndex="-1" count="99" mobile="false" src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/canvas-nest.min.js"></script><script src="https://cdn.cbd.int/butterfly-extsrc@1.1.3/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+POWERMODE.shake = false;
+POWERMODE.mobile = false;
+document.body.addEventListener('input', POWERMODE);
+</script><script>(() => {
+  const isChatBtn = true
+  const isChatHideShow = false
+
+  if (isChatBtn) {
+    const close = () => {
+      Chatra('minimizeWidget')
+      Chatra('hide')
+    }
+
+    const open = () => {
+      Chatra('openChat', true)
+      Chatra('show')
+    }
+
+    window.ChatraSetup = {
+      startHidden: true
+    }
+  
+    window.chatBtnFn = () => {
+      const isShow = document.getElementById('chatra').classList.contains('chatra--expanded')
+      isShow ? close() : open()
+    }
+  } else if (isChatHideShow) {
+    window.chatBtn = {
+      hide: () => {
+        Chatra('hide')
+      },
+      show: () => {
+        Chatra('show')
+      }
+    }
+  }
+
+  (function(d, w, c) {
+    w.ChatraID = 'HRMxBqTEvboxGRPzB'
+    var s = d.createElement('script')
+    w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments)
+    }
+    s.async = true
+    s.src = 'https://call.chatra.io/chatra.js'
+    if (d.head) d.head.appendChild(s)
+  })(document, window, 'Chatra')
+
+})()</script><link rel="stylesheet" href="https://cdn.cbd.int/anzhiyu-theme-static@1.0.0/aplayer/APlayer.min.css" media="print" onload="this.media='all'"><script src="https://cdn.cbd.int/anzhiyu-blog-static@1.0.1/js/APlayer.min.js"></script><script src="https://cdn.cbd.int/hexo-anzhiyu-music@1.0.1/assets/js/Meting2.min.js"></script><script src="https://cdn.cbd.int/pjax@0.2.8/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+  // removeEventListener scroll 
+  anzhiyu.removeGlobalFnEvent('pjax')
+  anzhiyu.removeGlobalFnEvent('themeChange')
+
+  document.getElementById('rightside').classList.remove('rightside-show')
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+})
+
+document.addEventListener('pjax:error', e => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script><script charset="UTF-8" src="https://cdn.cbd.int/anzhiyu-theme-static@1.1.5/accesskey/accesskey.js"></script></div><div id="popup-window"><div class="popup-window-title">通知</div><div class="popup-window-divider"></div><div class="popup-window-content"><div class="popup-tip">你好呀</div><div class="popup-link"><i class="anzhiyufont anzhiyu-icon-arrow-circle-right"></i></div></div></div><!-- hexo injector body_end start --><script data-pjax>
+    function butterfly_categories_card_injector_config(){
+      var parent_div_git = document.getElementById('recent-posts');
+      var item_html = '<style>li.categoryBar-list-item{width:32.3%;}.categoryBar-list{max-height: 380px;overflow:auto;}.categoryBar-list::-webkit-scrollbar{width:0!important}@media screen and (max-width: 650px){.categoryBar-list{max-height: 320px;}}</style><div class="recent-post-item" style="height:auto;width:100%;padding:0px;"><div id="categoryBar"><ul class="categoryBar-list"><li class="categoryBar-list-item" style="background:url(https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/学习笔记/&quot;);" href="javascript:void(0);">学习笔记</a><span class="categoryBar-list-count">7</span><span class="categoryBar-list-descr">学习笔记</span></li><li class="categoryBar-list-item" style="background:url(https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp);"> <a class="categoryBar-list-link" onclick="pjax.loadUrl(&quot;categories/大学生涯/&quot;);" href="javascript:void(0);">大学生涯</a><span class="categoryBar-list-count">1</span><span class="categoryBar-list-descr">大学生涯</span></li></ul></div></div>';
+      console.log('已挂载butterfly_categories_card')
+      parent_div_git.insertAdjacentHTML("afterbegin",item_html)
+      }
+    if( document.getElementById('recent-posts') && (location.pathname ==='/'|| '/' ==='all')){
+    butterfly_categories_card_injector_config()
+    }
+  </script><!-- hexo injector body_end end --></body></html>
