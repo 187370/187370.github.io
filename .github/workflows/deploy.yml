@@ -30,7 +30,7 @@ jobs:
       # 安装依赖
       - name: Install dependencies
         run: |
-          npm ci
+          npm ci --production=false
 
       # 清理缓存
       - name: Clean cache
