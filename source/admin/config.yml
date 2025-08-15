@@ -4,7 +4,7 @@ backend:
   branch: source # 源代码分支
   site_domain: pku-cs-cjw.top # 你的网站域名
   # 请在创建GitHub OAuth应用后，将Client ID填入下面
-  # client_id: "你的GitHub OAuth Client ID"
+  client_id: "Ov23liohMAN9xagZFvUc"
 
 # 媒体文件配置
 media_folder: "source/images/uploads" # 媒体文件存储位置
