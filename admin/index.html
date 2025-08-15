@@ -3,40 +3,93 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Content Manager</title>
+  <title>博客管理系统</title>
 </head>
 <body>
-  <!-- Include the script that builds the page and powers Netlify CMS -->
-  <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  <!-- Decap CMS -->
+  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
   
   <script>
-    // 初始化 GitHub 认证
-    CMS.init({
-      config: {
-        backend: {
-          name: 'github',
-          repo: '187370/187370.github.io',
-          branch: 'source',
-          auth_type: 'implicit',
-          app_id: 'Ov23liLRmmDF98ETNGkx',
-        }
-      }
-    });
+    // 初始化 Decap CMS
+    window.CMS_MANUAL_INIT = true;
     
-    // 处理 GitHub OAuth 回调
-    if (window.location.search.includes('code=')) {
+    // 处理 GitHub OAuth 认证
+    function handleAuth() {
       const url = new URL(window.location.href);
       const code = url.searchParams.get('code');
+      const state = url.searchParams.get('state');
       
-      // 清理 URL 中的参数
-      window.history.replaceState({}, document.title, window.location.pathname);
-      
-      // 手动触发登录成功
-      window.postMessage({
-        type: 'authorization:github:success',
-        payload: { token: code }
-      }, window.location.origin);
+      if (code) {
+        // 清理 URL
+        window.history.replaceState({}, document.title, window.location.pathname);
+        
+        // 交换 code 为 token
+        exchangeCodeForToken(code, state);
+      } else {
+        // 显示登录界面
+        showLoginUI();
+      }
     }
+    
+    function exchangeCodeForToken(code, state) {
+      // 由于我们使用的是 public OAuth app，我们需要使用 GitHub 的设备流程
+      // 或者简单地将用户重定向到 GitHub 授权页面
+      const clientId = 'Ov23liLRmmDF98ETNGkx';
+      
+      // 对于简单起见，我们直接使用 GitHub API
+      fetch(`https://api.github.com/user`, {
+        headers: {
+          'Authorization': `token ${code}`
+        }
+      }).then(response => {
+        if (response.ok) {
+          initializeCMS(code);
+        } else {
+          console.error('认证失败');
+          showLoginUI();
+        }
+      }).catch(() => {
+        showLoginUI();
+      });
+    }
+    
+    function showLoginUI() {
+      const clientId = 'Ov23liLRmmDF98ETNGkx';
+      const redirectUri = encodeURIComponent('https://pku-cs-cjw.top/admin/');
+      const scope = 'repo';
+      
+      document.body.innerHTML = `
+        <div style="display: flex; align-items: center; justify-content: center; height: 100vh; font-family: Arial, sans-serif;">
+          <div style="text-align: center;">
+            <h1>博客管理系统</h1>
+            <p>请使用 GitHub 账号登录</p>
+            <button onclick="location.href='https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=${scope}'" 
+                    style="background: #28a745; color: white; border: none; padding: 12px 24px; border-radius: 6px; cursor: pointer; font-size: 16px;">
+              🔑 使用 GitHub 登录
+            </button>
+          </div>
+        </div>
+      `;
+    }
+    
+    function initializeCMS(token) {
+      // 这里我们需要一个服务器端点来处理认证
+      // 暂时显示一个简化的管理界面
+      document.body.innerHTML = `
+        <div style="padding: 20px; font-family: Arial, sans-serif;">
+          <h1>✅ 登录成功！</h1>
+          <p>GitHub 认证已完成，但需要服务器端支持才能完全运行 CMS。</p>
+          <p>建议：</p>
+          <ul>
+            <li>使用 <a href="https://forestry.io" target="_blank">Forestry.io</a> (现在是 Tina.io)</li>
+            <li>或者继续本地写作，使用 <code>hexo new post "文章标题"</code></li>
+          </ul>
+        </div>
+      `;
+    }
+    
+    // 页面加载时处理认证
+    document.addEventListener('DOMContentLoaded', handleAuth);
   </script>
 </body>
 </html>
