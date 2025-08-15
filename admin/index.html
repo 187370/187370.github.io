@@ -8,5 +8,35 @@
 <body>
   <!-- Include the script that builds the page and powers Netlify CMS -->
   <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+  
+  <script>
+    // 初始化 GitHub 认证
+    CMS.init({
+      config: {
+        backend: {
+          name: 'github',
+          repo: '187370/187370.github.io',
+          branch: 'source',
+          auth_type: 'implicit',
+          app_id: 'Ov23liLRmmDF98ETNGkx',
+        }
+      }
+    });
+    
+    // 处理 GitHub OAuth 回调
+    if (window.location.search.includes('code=')) {
+      const url = new URL(window.location.href);
+      const code = url.searchParams.get('code');
+      
+      // 清理 URL 中的参数
+      window.history.replaceState({}, document.title, window.location.pathname);
+      
+      // 手动触发登录成功
+      window.postMessage({
+        type: 'authorization:github:success',
+        payload: { token: code }
+      }, window.location.origin);
+    }
+  </script>
 </body>
 </html>

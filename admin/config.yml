@@ -1,26 +1,29 @@
 backend:
   name: github
-  repo: 187370/187370.github.io # 你的 GitHub 仓库  
-  branch: source # 源代码分支
-  # 使用 GitHub 的 implicit flow
-  auth_type: implicit
-  app_id: Ov23liLRmmDF98ETNGkx
+  repo: 187370/187370.github.io
+  branch: source
+  squash_merges: true
+
+# 禁用 Netlify 的身份验证服务
+# publish_mode: editorial_workflow
+site_url: https://pku-cs-cjw.top
+display_url: https://pku-cs-cjw.top
 
 # 媒体文件配置
-media_folder: "source/images/uploads" # 媒体文件存储位置
-public_folder: "/images/uploads" # 公共访问路径
+media_folder: "source/images/uploads"
+public_folder: "/images/uploads"
 
 # 国际化
 locale: 'zh_Hans'
 
 # 集合配置
 collections:
-  - name: "posts" # 用于路由，必须唯一
-    label: "博客文章" # 在UI中显示的名称
-    folder: "source/_posts" # 文件存储的路径
-    create: true # 允许用户创建新文档
-    slug: "{{slug}}" # 使用标题作为文件名
-    fields: # 前置配置字段
+  - name: "posts"
+    label: "博客文章"
+    folder: "source/_posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
       - { label: "标题", name: "title", widget: "string" }
       - { label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
       - { label: "更新日期", name: "updated", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false }
@@ -45,19 +48,7 @@ collections:
       - { label: "数学公式", name: "mathjax", widget: "boolean", default: false, required: false }
       - { label: "正文", name: "body", widget: "markdown" }
 
-  - name: "pages"
-    label: "页面"
-    files:
-      - label: "关于页面"
-        name: "about"
-        file: "source/about/index.md"
-        fields:
-          - { label: "标题", name: "title", widget: "string" }
-          - { label: "日期", name: "date", widget: "datetime" }
-          - { label: "类型", name: "type", widget: "hidden", default: "about" }
-          - { label: "正文", name: "body", widget: "markdown" }
-
-# 预览模式（可选）
+# 预览模式
 show_preview_links: true
 
 # 编辑器工具栏配置
