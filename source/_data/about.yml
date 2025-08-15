@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 万物可爱，你也不例外
-  avatarImg: https://krseoul.imgtbl.com/i/2024/08/27/66cd53c0b3c7d.jpg
+  avatarImg: https://pku-cs-cjw.top/image/头像.jpg
   avatarSkills:
     left:
       - 🤖️ 数码科技爱好者
@@ -33,28 +33,28 @@
     list:
       - desc: PKU,计算机科学与技术
         color: "#357ef5"
-    img: https://krseoul.imgtbl.com/i/2024/08/28/66ce82f16f4ce.jpg
+    img: https://pku-cs-cjw.top/image/北大.jpg
   statistic:
     link: /archives
     text: 文章隧道
-    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+    cover: https://pku-cs-cjw.top/image/数据.jpg
   map:
     title: 我现在在
     StrengthenTitle: 中国，北京市
-    background: https://krseoul.imgtbl.com/i/2024/08/28/66ce844267375.png
-    backgroundDark: https://krseoul.imgtbl.com/i/2024/08/28/66ce844272705.png
+    background: https://pku-cs-cjw.top/image/北京1.png
+    backgroundDark: https://pku-cs-cjw.top/image/北京2.png
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2004
     selfInfoTips2: 北京大学
     selfInfoContent2: 计算机科学与技术
     selfInfoTips3: 职业
-    selfInfoContent3: 大二学生👨‍🎓
+    selfInfoContent3: 大三学生👨‍🎓
   personalities:
     author_name: 快乐小狗
     personality_type: ENFP
-    photo_url: https://krseoul.imgtbl.com/i/2024/08/28/66ce8b913215e.jpg
-    personality_img: https://krseoul.imgtbl.com/i/2024/08/28/66ce85ddc2d35.png
+    photo_url: https://pku-cs-cjw.top/image/人像.jpg
+    personality_img: https://pku-cs-cjw.top/image/ENFP.png
     name_url: https://www.16personalities.com/ch/enfp-%E4%BA%BA%E6%A0%BC
   maxim:
     maxim_tips: 人生理想
@@ -67,35 +67,35 @@
   game:
     game_tips: 爱好游戏
     game_title: 永劫无间
-    game_bg: https://krseoul.imgtbl.com/i/2024/08/28/66ce87128139e.jpg
+    game_bg: https://pku-cs-cjw.top/image/永劫无间.jpg
   comic:
     comic_tips: 爱好国漫
     comic_title: 追漫！
     comic_list:
       - name: 完美世界
         href: https://v.qq.com/x/search/?q=%E5%AE%8C%E7%BE%8E%E4%B8%96%E7%95%8C
-        cover: https://krseoul.imgtbl.com/i/2024/08/28/66ce89a991f60.jpg
+        cover: https://pku-cs-cjw.top/image/完美世界.jpg
       - name: 吞噬星空
         href: https://v.qq.com/x/search/?q=%E5%90%9E%E5%99%AC%E6%98%9F%E7%A9%BA&stag=0&smartbox_ab=
-        cover: https://krseoul.imgtbl.com/i/2024/08/28/66ce89647b516.jpg
+        cover: https://pku-cs-cjw.top/image/吞噬星空.jpg
       - name: 斗破苍穹
         href: https://v.qq.com/x/search/?q=%E6%96%97%E7%A0%B4%E8%8B%8D%E7%A9%B9&stag=0&smartbox_ab=
-        cover: https://krseoul.imgtbl.com/i/2024/08/28/66ce895baf220.jpg
+        cover: https://pku-cs-cjw.top/image/斗破苍穹.jpg
       - name: 神印王座
         href: https://v.qq.com/x/search/?q=%E7%A5%9E%E5%8D%B0%E7%8E%8B%E5%BA%A7&stag=0&smartbox_ab=
-        cover: https://krseoul.imgtbl.com/i/2024/08/28/66ce895ce500c.png
+        cover: https://pku-cs-cjw.top/image/神印王座.png
       - name: 紫川
         href: https://v.qq.com/x/search/?q=%E7%B4%AB%E5%B7%9D&stag=0&smartbox_ab=
-        cover: https://krseoul.imgtbl.com/i/2024/08/28/66ce895c5f515.jpg
+        cover: https://pku-cs-cjw.top/image/紫川.jpg
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bg: https://pku-cs-cjw.top/image/芯片.jpg
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 许嵩、薛之谦、华语流行
-    music_bg: https://krseoul.imgtbl.com/i/2024/08/28/66ce8d3a7da8d.png
+    music_bg: https://pku-cs-cjw.top/image/薛之谦.png
     music_link: /music
   reward_list:
     - name: 甜甜姐
@@ -104,6 +104,9 @@
     - name: 壮壮
       amount: 6.66
       datatime: 2024-08-28
+    - name: 刘学弟
+      amount: 6.66
+      datatime: 2024-09-04
     - name: 李总
       amount: 5.20
       datatime: 2024-08-29

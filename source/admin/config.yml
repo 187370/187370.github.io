@@ -1,0 +1,65 @@
+backend:
+  name: github
+  repo: 187370/187370.github.io # 你的 GitHub 仓库
+  branch: source # 源代码分支
+  site_domain: pku-cs-cjw.top # 你的网站域名
+  # 请在创建GitHub OAuth应用后，将Client ID填入下面
+  # client_id: "你的GitHub OAuth Client ID"
+
+# 媒体文件配置
+media_folder: "source/images/uploads" # 媒体文件存储位置
+public_folder: "/images/uploads" # 公共访问路径
+
+# 国际化
+locale: 'zh_Hans'
+
+# 集合配置
+collections:
+  - name: "posts" # 用于路由，必须唯一
+    label: "博客文章" # 在UI中显示的名称
+    folder: "source/_posts" # 文件存储的路径
+    create: true # 允许用户创建新文档
+    slug: "{{slug}}" # 使用标题作为文件名
+    fields: # 前置配置字段
+      - { label: "标题", name: "title", widget: "string" }
+      - { label: "发布日期", name: "date", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss" }
+      - { label: "更新日期", name: "updated", widget: "datetime", format: "YYYY-MM-DD HH:mm:ss", required: false }
+      - { 
+          label: "标签", 
+          name: "tags", 
+          widget: "select",
+          multiple: true,
+          options: ["笔记", "CSAPP", "ics", "数算", "教程", "水文", "数据结构与算法A"],
+          required: false
+        }
+      - { 
+          label: "分类", 
+          name: "categories", 
+          widget: "select",
+          options: ["学习笔记", "大学生涯", "日常生活"],
+          required: false
+        }
+      - { label: "封面图", name: "cover", widget: "image", required: false }
+      - { label: "摘要", name: "description", widget: "text", required: false }
+      - { label: "是否置顶", name: "sticky", widget: "boolean", default: false, required: false }
+      - { label: "数学公式", name: "mathjax", widget: "boolean", default: false, required: false }
+      - { label: "正文", name: "body", widget: "markdown" }
+
+  - name: "pages"
+    label: "页面"
+    files:
+      - label: "关于页面"
+        name: "about"
+        file: "source/about/index.md"
+        fields:
+          - { label: "标题", name: "title", widget: "string" }
+          - { label: "日期", name: "date", widget: "datetime" }
+          - { label: "类型", name: "type", widget: "hidden", default: "about" }
+          - { label: "正文", name: "body", widget: "markdown" }
+
+# 预览模式（可选）
+show_preview_links: true
+
+# 编辑器工具栏配置
+editor:
+  preview: true

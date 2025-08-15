@@ -5,24 +5,33 @@
   buttonLink: /about/
   limit: 30
   home_essay: true
-  top_background: https://krseoul.imgtbl.com/i/2024/08/28/66ce8b913215e.jpg
+  top_background: https://pku-cs-cjw.top/image/人像.jpg
   essay_list:
-    - content: 安知鱼主题指南
-      date: 2024/8/28
-      video:
-        - https://player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1&autoplay=0
+    #- content: 安知鱼主题指南
+    #  date: 2024/8/28
+    #  video:
+    #    - https://player.bilibili.com/player.html?aid=226886152&bvid=BV1Ch41137tR&cid=1081639816&p=1&autoplay=0
     - content: 真累啊，连续搭了四天了，加油加油！
       date: 2024/8/28
       image: 
-        - https://krseoul.imgtbl.com/i/2024/08/27/66cda26d95e64.jpg
+        - https://pku-cs-cjw.top/image/网页首页.jpg
       address: 北京
       link: /essay
     - content: 李总回北京了，耶嘿！
       date: 2024/8/29
       image:
-        - https://krseoul.imgtbl.com/i/2024/08/29/66cffd36b1368.jpg
+        - https://pku-cs-cjw.top/image/鲜花.jpg
       address: 北京
-      link: /essay      
+      link: /essay
+    - content: 转专业终审过了，正式成为cs人！
+      date: 2024/8/29
+      address: 北京
+      link: /essay    
+    
+    - content: 选课，选个der！
+      date: 2024/9/06
+      address: 北京
+      from: C+V
     # - content: 支持了Accesskey快捷键，可以直接按下shift + ?组合键以查看快捷键选项。
     #  date: 2023/07/01
     #  video:

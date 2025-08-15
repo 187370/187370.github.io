@@ -1,0 +1,64 @@
+name: 自动部署博客
+
+on:
+  push:
+    branches: [ source ]  # 监听 source 分支的推送
+  pull_request:
+    branches: [ source ]
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      # 检出代码
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          # 获取所有历史记录，Hexo需要git历史来生成文章信息
+          fetch-depth: 0
+          # 获取LFS文件
+          lfs: true
+
+      # 设置Node.js环境
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+
+      # 安装依赖
+      - name: Install dependencies
+        run: |
+          npm ci
+
+      # 清理缓存
+      - name: Clean cache
+        run: |
+          npm run clean
+
+      # 生成静态文件
+      - name: Generate static files
+        run: |
+          npm run build
+
+      # 部署到GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          # GitHub自动生成的token，具有仓库权限
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # 要发布的目录
+          publish_dir: ./public
+          # 发布到的分支（编译后的文件）
+          publish_branch: master
+          # 提交信息
+          commit_message: "🚀 Deploy from source branch"
+
+      # 部署成功通知（可选）
+      - name: Deployment notification
+        if: success()
+        run: |
+          echo "🎉 博客部署成功！"
+          echo "📝 最新提交: ${{ github.sha }}"
+          echo "🌐 网站地址: https://pku-cs-cjw.top"
