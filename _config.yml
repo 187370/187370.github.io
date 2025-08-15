@@ -70,7 +70,7 @@ feed:
 
 
 bangumi: # 追番设置
-  enable: true
+  enable: false  # 临时禁用以修复构建错误
   source: bili
   bgmInfoSource: 'bgmv0'
   path:
