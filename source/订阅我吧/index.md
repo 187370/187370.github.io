@@ -10,7 +10,7 @@ asider: false
 
 ---
 
-本站提供了邮箱订阅功能。此功能通过[Friend-Circle-Lite](https://github.com/willow-god/Friend-Circle-Lite)支持。只需简单的填写你的邮箱提交到**GitHub Issue**，即可开始接收本站的更新邮件，可以通过删除**issue**进行取消订阅！
+本站提供了邮箱订阅功能。此功能通过[Friend-Circle-Lite](https://github.com/willow-god/Friend-Circle-Lite)支持。只需简单的填写你的邮箱提交到**GitHub Issue**，即可开始接收本站的更新邮件，可以通过删除**issue**进行取消订阅。
 
 访问**GitHub Issue** 页面。
 
