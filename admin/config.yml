@@ -2,9 +2,9 @@ backend:
   name: github
   repo: 187370/187370.github.io # 你的 GitHub 仓库
   branch: source # 源代码分支
-  site_domain: pku-cs-cjw.top # 你的网站域名
-  # 请在创建GitHub OAuth应用后，将Client ID填入下面
-  client_id: "Ov23liohMAN9xagZFvUc"
+  # GitHub OAuth 配置
+  client_id: "Ov23liLRmmDF98ETNGkx"
+  redirect_url: "https://pku-cs-cjw.top/admin/auth.html"
 
 # 媒体文件配置
 media_folder: "source/images/uploads" # 媒体文件存储位置
