@@ -1,0 +1,13 @@
+/* 隐藏 Netlify CMS 错误信息 */
+.cms-error-message,
+.netlify-cms-error,
+[class*="cms"][class*="error"],
+[class*="netlify"][class*="error"] {
+  display: none !important;
+}
+
+/* 如果错误信息在特定容器中 */
+.footer .cms-error,
+.site-footer .cms-error {
+  display: none !important;
+}
