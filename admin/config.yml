@@ -1,10 +1,10 @@
 backend:
   name: github
-  repo: 187370/187370.github.io # 你的 GitHub 仓库
+  repo: 187370/187370.github.io # 你的 GitHub 仓库  
   branch: source # 源代码分支
-  # GitHub OAuth 配置
-  client_id: "Ov23liLRmmDF98ETNGkx"
-  redirect_url: "https://pku-cs-cjw.top/admin/auth.html"
+  # 使用 GitHub 的 implicit flow
+  auth_type: implicit
+  app_id: Ov23liLRmmDF98ETNGkx
 
 # 媒体文件配置
 media_folder: "source/images/uploads" # 媒体文件存储位置
